@@ -39,6 +39,6 @@ def generate_transactions(n):
 
 if __name__ == "__main__":
     df = generate_transactions(NUM_TRANSACTIONS)
-    df.to_csv("data/transactions.csv", index=False)
+    df.to_csv("data/raw/transactions.csv", index=False)
     print(f"Generated {len(df)} transactions -> data/transactions.csv")
     print(df.head())
