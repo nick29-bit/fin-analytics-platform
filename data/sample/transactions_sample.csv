@@ -1,0 +1,201 @@
+transaction_id,customer_id,merchant_name,merchant_category,amount,currency,status,channel,city,transaction_timestamp,is_fraud
+TXN-000001,CUST-0007,Netflix,travel,29.16,USD,approved,mobile,New York,2026-08-16 06:00:17.020835,False
+TXN-000002,CUST-0140,Walmart,dining,181.61,USD,approved,online,New York,2026-07-02 18:38:39.020849,False
+TXN-000003,CUST-0155,Amazon,dining,80.0,USD,approved,mobile,Miami,2026-07-02 22:50:40.020855,False
+TXN-000004,CUST-0072,Amazon,fuel,55.78,USD,approved,mobile,Miami,2026-07-14 14:01:19.020859,False
+TXN-000005,CUST-0056,Target,groceries,11.18,USD,approved,online,Atlanta,2026-09-01 19:59:09.020865,False
+TXN-000006,CUST-0068,Amazon,shopping,11.18,USD,approved,online,Miami,2026-06-19 04:47:54.020868,False
+TXN-000007,CUST-0161,Costco,fuel,4.59,USD,approved,online,New York,2026-06-15 23:57:33.020871,False
+TXN-000008,CUST-0198,Netflix,groceries,121.67,USD,approved,online,Miami,2026-07-08 12:54:22.020878,False
+TXN-000009,CUST-0094,Starbucks,entertainment,56.14,USD,approved,mobile,Denver,2026-08-18 16:32:26.020882,False
+TXN-000010,CUST-0166,Walmart,dining,74.88,USD,approved,mobile,Seattle,2026-06-27 09:56:10.020886,False
+TXN-000011,CUST-0070,Best Buy,travel,2.25,USD,approved,online,Seattle,2026-08-30 08:07:10.020890,False
+TXN-000012,CUST-0081,Shell,entertainment,211.21,USD,approved,mobile,Atlanta,2026-07-02 04:38:11.020893,False
+TXN-000013,CUST-0102,Delta Airlines,travel,108.19,USD,approved,online,Denver,2026-08-23 01:50:57.020896,False
+TXN-000014,CUST-0150,Shell,entertainment,15.32,USD,approved,online,Phoenix,2026-06-20 09:00:54.020899,False
+TXN-000015,CUST-0029,Starbucks,shopping,13.04,USD,approved,mobile,Miami,2026-08-08 10:54:52.020901,False
+TXN-000016,CUST-0098,Costco,utilities,13.16,USD,approved,mobile,Chicago,2026-08-16 14:21:21.020904,False
+TXN-000017,CUST-0175,Best Buy,fuel,22.77,USD,approved,mobile,Atlanta,2026-06-22 09:06:58.020907,False
+TXN-000018,CUST-0041,Delta Airlines,groceries,45.64,USD,declined,mobile,Denver,2026-07-30 03:37:51.020909,False
+TXN-000019,CUST-0130,Walmart,fuel,34.93,USD,approved,mobile,Seattle,2026-06-26 09:19:19.020912,False
+TXN-000020,CUST-0042,Best Buy,fuel,21.65,USD,declined,online,Atlanta,2026-07-28 23:42:52.020915,False
+TXN-000021,CUST-0093,Netflix,travel,57.78,USD,approved,mobile,New York,2026-06-19 20:46:04.020917,True
+TXN-000022,CUST-0018,Best Buy,fuel,10.01,USD,approved,mobile,Phoenix,2026-08-03 22:18:57.020920,False
+TXN-000023,CUST-0136,Costco,utilities,21.73,USD,declined,mobile,Seattle,2026-08-19 18:28:20.020923,False
+TXN-000024,CUST-0172,Target,utilities,28.38,USD,approved,in-store,New York,2026-07-05 14:50:34.020925,False
+TXN-000025,CUST-0087,Amazon,dining,37.54,USD,approved,mobile,Seattle,2026-06-12 05:56:12.020928,False
+TXN-000026,CUST-0162,Amazon,travel,93.28,USD,approved,online,Atlanta,2026-06-18 10:17:25.020930,False
+TXN-000027,CUST-0072,Delta Airlines,travel,14.36,USD,approved,mobile,Phoenix,2026-07-05 03:24:19.020933,False
+TXN-000028,CUST-0105,Uber,groceries,44.32,USD,approved,in-store,Atlanta,2026-07-22 16:11:26.020935,False
+TXN-000029,CUST-0187,Amazon,shopping,54.85,USD,approved,mobile,New York,2026-06-17 10:25:06.020938,False
+TXN-000030,CUST-0087,Walmart,travel,3.85,USD,approved,mobile,Phoenix,2026-06-25 03:49:45.020940,False
+TXN-000031,CUST-0072,Delta Airlines,travel,57.12,USD,approved,online,Phoenix,2026-08-29 00:00:32.020944,False
+TXN-000032,CUST-0141,Walmart,groceries,12.22,USD,approved,mobile,Chicago,2026-06-20 14:29:55.020947,False
+TXN-000033,CUST-0061,Starbucks,utilities,5.04,USD,approved,online,Miami,2026-09-07 04:01:30.020951,False
+TXN-000034,CUST-0098,Amazon,utilities,179.42,USD,approved,in-store,Denver,2026-07-22 14:51:34.020954,False
+TXN-000035,CUST-0188,Best Buy,shopping,203.24,USD,approved,online,Seattle,2026-07-10 08:33:36.020960,False
+TXN-000036,CUST-0015,Costco,shopping,100.14,USD,approved,mobile,Atlanta,2026-06-17 02:23:08.020963,False
+TXN-000037,CUST-0123,Best Buy,fuel,22.8,USD,approved,online,New York,2026-09-02 04:57:09.020967,False
+TXN-000038,CUST-0153,Walmart,shopping,7.17,USD,approved,in-store,New York,2026-09-05 23:42:02.020970,False
+TXN-000039,CUST-0149,Costco,groceries,70.17,USD,approved,in-store,Atlanta,2026-07-06 20:48:32.020973,False
+TXN-000040,CUST-0184,Target,travel,35.81,USD,approved,online,Denver,2026-07-25 22:35:28.020976,False
+TXN-000041,CUST-0193,Walmart,groceries,8.81,USD,approved,mobile,New York,2026-06-18 15:53:26.020979,False
+TXN-000042,CUST-0130,Netflix,travel,42.01,USD,declined,online,Seattle,2026-07-17 10:14:28.020982,False
+TXN-000043,CUST-0113,Best Buy,shopping,3.1,USD,approved,mobile,Chicago,2026-08-15 09:24:53.020985,False
+TXN-000044,CUST-0077,Walmart,travel,145.03,USD,approved,online,Austin,2026-07-07 23:47:53.020988,False
+TXN-000045,CUST-0054,Target,travel,18.97,USD,approved,in-store,Phoenix,2026-07-05 22:20:08.020991,False
+TXN-000046,CUST-0014,Walmart,shopping,66.18,USD,approved,in-store,Chicago,2026-06-11 21:26:34.020993,False
+TXN-000047,CUST-0034,Netflix,travel,23.41,USD,approved,mobile,Miami,2026-08-05 00:11:18.020996,False
+TXN-000048,CUST-0020,Starbucks,dining,45.05,USD,approved,in-store,Austin,2026-07-23 06:39:23.020999,True
+TXN-000049,CUST-0079,Target,fuel,48.47,USD,declined,online,Atlanta,2026-07-01 22:41:40.021002,False
+TXN-000050,CUST-0171,Walmart,entertainment,13.26,USD,approved,in-store,Austin,2026-09-09 10:22:00.021005,False
+TXN-000051,CUST-0042,Starbucks,utilities,210.57,USD,approved,mobile,Atlanta,2026-08-26 12:16:24.021010,False
+TXN-000052,CUST-0172,Uber,entertainment,90.53,USD,approved,mobile,New York,2026-07-18 16:34:03.021012,False
+TXN-000053,CUST-0121,Uber,travel,169.31,USD,approved,in-store,Atlanta,2026-07-11 04:19:37.021015,False
+TXN-000054,CUST-0059,Uber,groceries,136.13,USD,approved,in-store,Atlanta,2026-07-08 14:22:22.021018,False
+TXN-000055,CUST-0198,Netflix,entertainment,55.66,USD,approved,in-store,Atlanta,2026-06-14 05:29:41.021021,False
+TXN-000056,CUST-0067,Starbucks,dining,153.97,USD,declined,in-store,Chicago,2026-06-22 01:46:37.021024,False
+TXN-000057,CUST-0089,Target,utilities,6.56,USD,approved,mobile,New York,2026-07-18 22:45:04.021027,False
+TXN-000058,CUST-0049,Netflix,groceries,14.09,USD,approved,online,Seattle,2026-07-16 21:52:42.021030,False
+TXN-000059,CUST-0171,Target,dining,3.78,USD,approved,online,Denver,2026-07-30 18:51:42.021033,False
+TXN-000060,CUST-0105,Target,utilities,24.61,USD,approved,mobile,Austin,2026-06-30 04:12:02.021035,False
+TXN-000061,CUST-0098,Starbucks,dining,30.53,USD,approved,in-store,Chicago,2026-07-11 01:15:38.021038,False
+TXN-000062,CUST-0111,Costco,dining,19.99,USD,approved,in-store,Phoenix,2026-07-24 11:29:16.021041,False
+TXN-000063,CUST-0131,Delta Airlines,fuel,106.87,USD,approved,mobile,Austin,2026-08-14 12:24:51.021044,False
+TXN-000064,CUST-0132,Costco,entertainment,27.47,USD,approved,online,Denver,2026-07-03 08:37:53.021047,False
+TXN-000065,CUST-0038,Amazon,groceries,20.79,USD,approved,in-store,New York,2026-07-25 18:22:38.021050,False
+TXN-000066,CUST-0162,Costco,travel,47.94,USD,approved,in-store,Phoenix,2026-07-20 08:26:22.021053,False
+TXN-000067,CUST-0168,Amazon,fuel,10.11,USD,approved,online,Miami,2026-07-02 19:07:03.021056,False
+TXN-000068,CUST-0179,Best Buy,utilities,98.23,USD,approved,online,New York,2026-07-25 20:48:50.021059,False
+TXN-000069,CUST-0119,Best Buy,dining,5.65,USD,approved,in-store,Miami,2026-08-31 04:32:50.021062,False
+TXN-000070,CUST-0115,Starbucks,shopping,261.05,USD,approved,in-store,Denver,2026-08-23 12:56:51.021065,False
+TXN-000071,CUST-0164,Netflix,fuel,89.77,USD,approved,in-store,Seattle,2026-07-08 05:02:21.021067,False
+TXN-000072,CUST-0183,Netflix,travel,14.29,USD,approved,in-store,New York,2026-06-24 23:36:56.021070,False
+TXN-000073,CUST-0099,Starbucks,shopping,1.33,USD,approved,in-store,Miami,2026-07-13 16:11:25.021073,False
+TXN-000074,CUST-0107,Amazon,travel,102.39,USD,approved,in-store,Chicago,2026-09-02 17:30:40.021076,False
+TXN-000075,CUST-0148,Shell,utilities,74.63,USD,approved,in-store,Denver,2026-08-23 16:54:18.021078,False
+TXN-000076,CUST-0108,Best Buy,shopping,79.34,USD,approved,mobile,Seattle,2026-07-28 22:50:16.021081,False
+TXN-000077,CUST-0112,Delta Airlines,groceries,89.51,USD,approved,mobile,Miami,2026-08-20 20:38:44.021084,False
+TXN-000078,CUST-0120,Starbucks,dining,5.62,USD,approved,in-store,Chicago,2026-06-19 16:47:33.021087,False
+TXN-000079,CUST-0035,Delta Airlines,travel,27.63,USD,approved,in-store,Atlanta,2026-07-02 02:23:06.021090,False
+TXN-000080,CUST-0087,Shell,entertainment,8.39,USD,approved,in-store,Denver,2026-08-31 14:39:51.021093,False
+TXN-000081,CUST-0005,Best Buy,groceries,120.31,USD,pending,in-store,Seattle,2026-08-13 16:07:34.021096,False
+TXN-000082,CUST-0167,Amazon,fuel,59.58,USD,approved,online,Seattle,2026-09-01 00:43:32.021099,False
+TXN-000083,CUST-0040,Uber,travel,25.11,USD,approved,online,Seattle,2026-07-26 16:47:18.021102,False
+TXN-000084,CUST-0197,Target,travel,4.94,USD,approved,mobile,New York,2026-08-26 01:34:02.021105,False
+TXN-000085,CUST-0080,Walmart,dining,23.35,USD,approved,in-store,Miami,2026-07-20 01:27:09.021107,False
+TXN-000086,CUST-0051,Walmart,dining,24.6,USD,approved,mobile,Seattle,2026-06-21 10:37:41.021110,False
+TXN-000087,CUST-0078,Costco,fuel,79.47,USD,approved,mobile,Chicago,2026-07-15 06:13:27.021113,False
+TXN-000088,CUST-0170,Target,groceries,61.89,USD,approved,in-store,Chicago,2026-09-02 00:50:07.021116,False
+TXN-000089,CUST-0126,Walmart,utilities,131.94,USD,declined,mobile,Phoenix,2026-08-19 05:19:45.021119,False
+TXN-000090,CUST-0046,Best Buy,shopping,39.34,USD,approved,mobile,Phoenix,2026-07-26 16:24:54.021122,False
+TXN-000091,CUST-0188,Costco,entertainment,8.64,USD,approved,online,New York,2026-07-08 15:07:50.021126,False
+TXN-000092,CUST-0063,Delta Airlines,dining,75.95,USD,approved,in-store,Atlanta,2026-06-14 08:03:24.021129,False
+TXN-000093,CUST-0084,Starbucks,utilities,86.82,USD,approved,in-store,Atlanta,2026-07-08 16:49:56.021131,False
+TXN-000094,CUST-0180,Netflix,dining,50.43,USD,approved,online,New York,2026-07-04 23:34:52.021134,False
+TXN-000095,CUST-0126,Best Buy,fuel,89.43,USD,approved,in-store,Phoenix,2026-07-25 01:30:11.021137,False
+TXN-000096,CUST-0024,Netflix,travel,41.85,USD,approved,online,Denver,2026-08-15 00:19:11.021139,False
+TXN-000097,CUST-0122,Best Buy,dining,45.38,USD,approved,mobile,Atlanta,2026-07-15 16:57:31.021142,False
+TXN-000098,CUST-0070,Netflix,entertainment,34.47,USD,approved,mobile,Seattle,2026-07-12 04:27:39.021144,False
+TXN-000099,CUST-0138,Starbucks,travel,2.54,USD,approved,in-store,Denver,2026-08-20 21:35:10.021147,False
+TXN-000100,CUST-0195,Best Buy,dining,7.85,USD,approved,online,Seattle,2026-07-10 07:29:06.021149,False
+TXN-000101,CUST-0046,Netflix,groceries,2.92,USD,approved,online,Denver,2026-06-15 23:14:24.021152,False
+TXN-000102,CUST-0142,Netflix,shopping,61.7,USD,declined,mobile,Phoenix,2026-06-21 12:13:38.021154,False
+TXN-000103,CUST-0147,Netflix,utilities,23.64,USD,approved,in-store,Austin,2026-06-16 12:53:50.021157,False
+TXN-000104,CUST-0123,Walmart,fuel,43.63,USD,approved,in-store,New York,2026-08-06 13:44:15.021159,False
+TXN-000105,CUST-0014,Starbucks,travel,143.88,USD,approved,in-store,New York,2026-07-05 15:30:27.021163,False
+TXN-000106,CUST-0196,Shell,dining,18.2,USD,approved,mobile,Seattle,2026-08-25 20:40:40.021166,False
+TXN-000107,CUST-0116,Delta Airlines,entertainment,32.7,USD,approved,in-store,Denver,2026-08-05 18:11:00.021168,False
+TXN-000108,CUST-0157,Walmart,fuel,85.52,USD,approved,online,Denver,2026-08-14 16:05:23.021171,False
+TXN-000109,CUST-0062,Starbucks,dining,16.59,USD,approved,online,Miami,2026-07-25 06:55:49.021173,False
+TXN-000110,CUST-0121,Netflix,groceries,5.81,USD,approved,mobile,Denver,2026-08-18 19:15:38.021176,False
+TXN-000111,CUST-0019,Uber,entertainment,21.53,USD,approved,mobile,Seattle,2026-07-22 19:49:35.021178,False
+TXN-000112,CUST-0058,Starbucks,entertainment,11.55,USD,approved,online,Chicago,2026-06-27 15:48:32.021181,False
+TXN-000113,CUST-0153,Costco,entertainment,160.3,USD,approved,in-store,Denver,2026-08-18 11:40:42.021184,False
+TXN-000114,CUST-0070,Best Buy,dining,100.05,USD,approved,online,Chicago,2026-09-05 21:41:10.021186,False
+TXN-000115,CUST-0083,Costco,entertainment,61.21,USD,approved,online,Chicago,2026-08-24 19:12:06.021189,False
+TXN-000116,CUST-0069,Costco,groceries,124.09,USD,approved,online,Phoenix,2026-07-31 22:27:15.021191,False
+TXN-000117,CUST-0072,Starbucks,dining,98.68,USD,approved,in-store,New York,2026-07-27 04:23:03.021194,False
+TXN-000118,CUST-0086,Target,shopping,13.39,USD,approved,online,Atlanta,2026-07-21 12:23:00.021196,False
+TXN-000119,CUST-0074,Shell,fuel,134.85,USD,approved,online,Phoenix,2026-06-20 02:22:30.021199,False
+TXN-000120,CUST-0083,Walmart,fuel,47.51,USD,approved,mobile,Chicago,2026-08-14 09:38:26.021201,False
+TXN-000121,CUST-0119,Shell,groceries,99.84,USD,approved,in-store,Phoenix,2026-08-11 06:29:19.021204,False
+TXN-000122,CUST-0014,Uber,entertainment,136.85,USD,approved,in-store,Phoenix,2026-09-05 01:42:07.021206,False
+TXN-000123,CUST-0032,Amazon,shopping,23.96,USD,approved,online,Austin,2026-07-11 17:16:52.021208,False
+TXN-000124,CUST-0142,Shell,groceries,8.0,USD,approved,online,Phoenix,2026-06-22 22:53:48.021211,False
+TXN-000125,CUST-0040,Delta Airlines,shopping,16.52,USD,approved,mobile,Denver,2026-07-21 21:20:36.021214,False
+TXN-000126,CUST-0121,Uber,utilities,34.42,USD,approved,in-store,Seattle,2026-09-09 01:17:21.021216,False
+TXN-000127,CUST-0192,Starbucks,fuel,103.23,USD,approved,in-store,Atlanta,2026-08-27 00:41:43.021219,False
+TXN-000128,CUST-0001,Netflix,shopping,119.28,USD,approved,mobile,Phoenix,2026-09-03 13:23:02.021221,False
+TXN-000129,CUST-0138,Delta Airlines,entertainment,1.42,USD,approved,mobile,Miami,2026-07-25 18:12:38.021224,False
+TXN-000130,CUST-0049,Uber,dining,43.89,USD,approved,in-store,Chicago,2026-07-12 10:35:07.021227,False
+TXN-000131,CUST-0181,Shell,utilities,33.42,USD,pending,mobile,Austin,2026-07-29 15:22:48.021230,False
+TXN-000132,CUST-0033,Best Buy,dining,16.07,USD,approved,online,Phoenix,2026-06-21 05:31:33.021233,False
+TXN-000133,CUST-0117,Amazon,shopping,8.66,USD,approved,mobile,Austin,2026-06-18 19:32:35.021235,False
+TXN-000134,CUST-0068,Target,dining,25.71,USD,approved,mobile,New York,2026-09-02 05:56:16.021238,False
+TXN-000135,CUST-0173,Best Buy,utilities,172.79,USD,declined,mobile,Phoenix,2026-09-04 05:58:50.021240,False
+TXN-000136,CUST-0159,Walmart,travel,24.42,USD,approved,in-store,Seattle,2026-08-23 01:16:21.021243,False
+TXN-000137,CUST-0026,Walmart,utilities,44.89,USD,approved,in-store,Chicago,2026-06-16 00:20:51.021245,False
+TXN-000138,CUST-0015,Netflix,entertainment,73.85,USD,approved,online,Seattle,2026-08-02 02:53:17.021248,False
+TXN-000139,CUST-0175,Starbucks,travel,28.12,USD,approved,mobile,Miami,2026-08-10 17:12:38.021250,False
+TXN-000140,CUST-0128,Costco,travel,215.07,USD,approved,mobile,Denver,2026-07-26 04:03:27.021253,False
+TXN-000141,CUST-0003,Delta Airlines,entertainment,197.92,USD,approved,online,New York,2026-07-24 10:29:08.021255,False
+TXN-000142,CUST-0151,Netflix,shopping,18.4,USD,declined,mobile,Denver,2026-07-25 21:41:07.021258,False
+TXN-000143,CUST-0051,Shell,fuel,42.26,USD,approved,online,Miami,2026-08-06 01:51:26.021260,False
+TXN-000144,CUST-0076,Netflix,groceries,22.48,USD,declined,mobile,Miami,2026-07-08 04:45:59.021263,False
+TXN-000145,CUST-0176,Amazon,dining,21.11,USD,approved,in-store,Seattle,2026-08-09 11:44:41.021265,True
+TXN-000146,CUST-0057,Uber,dining,3.26,USD,approved,mobile,Austin,2026-08-11 13:06:18.021268,False
+TXN-000147,CUST-0161,Amazon,entertainment,57.43,USD,approved,online,Atlanta,2026-08-21 15:42:10.021270,False
+TXN-000148,CUST-0076,Target,shopping,42.91,USD,approved,online,Austin,2026-08-26 21:53:18.021273,False
+TXN-000149,CUST-0094,Best Buy,dining,4.17,USD,approved,online,Denver,2026-09-08 07:04:09.021276,False
+TXN-000150,CUST-0124,Netflix,shopping,20.6,USD,approved,online,Phoenix,2026-06-18 20:38:27.021278,False
+TXN-000151,CUST-0058,Shell,fuel,144.33,USD,approved,in-store,New York,2026-08-27 07:36:12.021281,False
+TXN-000152,CUST-0068,Best Buy,groceries,17.43,USD,approved,mobile,Denver,2026-08-07 07:18:16.021283,False
+TXN-000153,CUST-0164,Target,groceries,10.39,USD,approved,in-store,Chicago,2026-08-10 16:49:46.021286,False
+TXN-000154,CUST-0144,Target,dining,41.34,USD,approved,online,Phoenix,2026-09-07 20:12:27.021288,False
+TXN-000155,CUST-0167,Shell,groceries,255.64,USD,approved,online,Denver,2026-07-29 09:04:45.021291,False
+TXN-000156,CUST-0061,Best Buy,travel,17.63,USD,approved,in-store,Miami,2026-08-07 13:46:58.021293,False
+TXN-000157,CUST-0040,Shell,shopping,67.91,USD,approved,in-store,Miami,2026-07-08 17:01:21.021296,False
+TXN-000158,CUST-0095,Uber,utilities,87.03,USD,approved,online,Atlanta,2026-06-21 04:41:37.021298,False
+TXN-000159,CUST-0095,Best Buy,shopping,17.28,USD,approved,in-store,Denver,2026-06-29 23:28:00.021301,False
+TXN-000160,CUST-0117,Walmart,shopping,79.16,USD,approved,mobile,Chicago,2026-06-16 11:02:14.021303,False
+TXN-000161,CUST-0063,Starbucks,fuel,28.51,USD,approved,online,Seattle,2026-08-07 11:33:08.021306,False
+TXN-000162,CUST-0060,Target,fuel,61.03,USD,approved,mobile,Chicago,2026-07-08 11:16:40.021308,False
+TXN-000163,CUST-0038,Starbucks,dining,61.23,USD,approved,online,New York,2026-08-14 17:33:24.021311,False
+TXN-000164,CUST-0034,Amazon,entertainment,47.04,USD,approved,online,Atlanta,2026-06-13 01:57:12.021313,False
+TXN-000165,CUST-0014,Starbucks,shopping,6.68,USD,approved,online,New York,2026-07-27 18:54:51.021315,False
+TXN-000166,CUST-0093,Best Buy,dining,109.22,USD,approved,mobile,Seattle,2026-08-10 06:29:01.021318,False
+TXN-000167,CUST-0169,Best Buy,entertainment,24.21,USD,approved,online,Chicago,2026-07-28 01:17:22.021320,False
+TXN-000168,CUST-0110,Walmart,utilities,13.39,USD,approved,in-store,New York,2026-09-06 20:37:27.021323,False
+TXN-000169,CUST-0156,Starbucks,groceries,3.5,USD,approved,mobile,Atlanta,2026-07-18 12:45:08.021325,False
+TXN-000170,CUST-0136,Netflix,utilities,54.63,USD,approved,in-store,New York,2026-08-27 13:13:43.021328,False
+TXN-000171,CUST-0168,Best Buy,shopping,68.91,USD,approved,in-store,Phoenix,2026-09-05 18:34:58.021332,False
+TXN-000172,CUST-0087,Delta Airlines,utilities,2.0,USD,approved,online,Atlanta,2026-07-22 23:36:46.021334,False
+TXN-000173,CUST-0066,Target,travel,44.06,USD,approved,in-store,New York,2026-06-20 09:44:59.021337,False
+TXN-000174,CUST-0024,Shell,groceries,16.41,USD,approved,in-store,Austin,2026-08-04 13:37:07.021339,False
+TXN-000175,CUST-0144,Best Buy,entertainment,63.17,USD,approved,in-store,Atlanta,2026-09-04 08:50:00.021342,False
+TXN-000176,CUST-0193,Shell,fuel,12.5,USD,approved,online,Denver,2026-08-08 20:14:15.021344,False
+TXN-000177,CUST-0027,Costco,dining,71.45,USD,approved,mobile,Phoenix,2026-07-03 07:42:33.021347,False
+TXN-000178,CUST-0090,Best Buy,entertainment,30.34,USD,approved,in-store,Seattle,2026-08-28 22:08:34.021349,False
+TXN-000179,CUST-0144,Costco,dining,166.62,USD,approved,mobile,Chicago,2026-08-09 16:14:30.021352,False
+TXN-000180,CUST-0178,Netflix,groceries,9.88,USD,approved,mobile,Denver,2026-09-09 00:31:08.021354,False
+TXN-000181,CUST-0002,Starbucks,fuel,26.03,USD,approved,mobile,Miami,2026-06-18 07:19:35.021357,False
+TXN-000182,CUST-0163,Amazon,groceries,8.23,USD,approved,online,Miami,2026-07-22 07:27:41.021359,False
+TXN-000183,CUST-0041,Target,entertainment,156.17,USD,approved,mobile,New York,2026-09-05 07:31:02.021361,False
+TXN-000184,CUST-0041,Costco,groceries,126.9,USD,approved,in-store,Phoenix,2026-08-14 19:36:35.021364,False
+TXN-000185,CUST-0156,Delta Airlines,utilities,18.9,USD,approved,mobile,New York,2026-07-15 01:29:30.021366,False
+TXN-000186,CUST-0073,Costco,utilities,65.73,USD,approved,in-store,Chicago,2026-07-02 23:01:33.021369,False
+TXN-000187,CUST-0154,Amazon,groceries,102.97,USD,approved,online,Austin,2026-08-24 17:48:17.021371,False
+TXN-000188,CUST-0084,Walmart,groceries,49.61,USD,approved,in-store,Austin,2026-06-24 02:12:19.021374,False
+TXN-000189,CUST-0181,Uber,dining,46.26,USD,approved,mobile,Atlanta,2026-06-18 13:07:44.021376,False
+TXN-000190,CUST-0190,Amazon,utilities,17.61,USD,approved,online,Atlanta,2026-08-06 10:47:48.021380,False
+TXN-000191,CUST-0104,Shell,entertainment,6.86,USD,approved,online,Atlanta,2026-06-28 05:40:27.021382,False
+TXN-000192,CUST-0159,Delta Airlines,fuel,137.51,USD,approved,in-store,New York,2026-07-23 22:47:34.021385,False
+TXN-000193,CUST-0063,Shell,dining,139.41,USD,approved,online,Miami,2026-09-04 01:38:59.021387,False
+TXN-000194,CUST-0087,Uber,entertainment,61.16,USD,approved,online,New York,2026-08-02 01:34:46.021390,False
+TXN-000195,CUST-0199,Target,entertainment,25.84,USD,approved,mobile,Austin,2026-07-04 11:43:37.021392,False
+TXN-000196,CUST-0066,Uber,travel,26.77,USD,approved,mobile,New York,2026-06-28 17:57:40.021395,False
+TXN-000197,CUST-0161,Delta Airlines,utilities,78.67,USD,approved,mobile,Phoenix,2026-08-16 16:20:12.021397,False
+TXN-000198,CUST-0145,Costco,entertainment,137.45,USD,approved,mobile,Atlanta,2026-06-26 04:56:13.021400,False
+TXN-000199,CUST-0121,Delta Airlines,shopping,131.87,USD,approved,in-store,Chicago,2026-07-15 17:15:56.021402,False
+TXN-000200,CUST-0080,Delta Airlines,utilities,91.81,USD,approved,in-store,Denver,2026-06-18 23:58:37.021405,False
