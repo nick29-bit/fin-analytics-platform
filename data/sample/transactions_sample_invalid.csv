@@ -1,0 +1,6 @@
+transaction_id,customer_id,merchant_name,merchant_category,amount,currency,status,channel,city,transaction_timestamp,is_fraud
+TXN-BAD01,CUST-0001,Amazon,shopping,-25.00,USD,approved,online,Chicago,2026-09-01 10:00:00,False
+TXN-BAD02,CUST-0002,Walmart,groceries,45.50,USD,cancelled,in-store,Austin,2026-09-01 11:00:00,False
+TXN-BAD03,CUST-0003,Starbucks,dining,12.75,USD,approved,fax,Denver,2026-09-01 12:00:00,False
+TXN-BAD04,CUST-0004,,entertainment,30.00,USD,approved,mobile,Seattle,2026-09-01 13:00:00,False
+TXN-BAD05,CUST-0005,Netflix,entertainment,15.99,USD,approved,online,Miami,not-a-real-date,False
