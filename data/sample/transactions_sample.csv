@@ -1,201 +1,501 @@
-transaction_id,customer_id,merchant_name,merchant_category,amount,currency,status,channel,city,transaction_timestamp,is_fraud
-TXN-000001,CUST-0007,Netflix,travel,29.16,USD,approved,mobile,New York,2026-08-16 06:00:17.020835,False
-TXN-000002,CUST-0140,Walmart,dining,181.61,USD,approved,online,New York,2026-07-02 18:38:39.020849,False
-TXN-000003,CUST-0155,Amazon,dining,80.0,USD,approved,mobile,Miami,2026-07-02 22:50:40.020855,False
-TXN-000004,CUST-0072,Amazon,fuel,55.78,USD,approved,mobile,Miami,2026-07-14 14:01:19.020859,False
-TXN-000005,CUST-0056,Target,groceries,11.18,USD,approved,online,Atlanta,2026-09-01 19:59:09.020865,False
-TXN-000006,CUST-0068,Amazon,shopping,11.18,USD,approved,online,Miami,2026-06-19 04:47:54.020868,False
-TXN-000007,CUST-0161,Costco,fuel,4.59,USD,approved,online,New York,2026-06-15 23:57:33.020871,False
-TXN-000008,CUST-0198,Netflix,groceries,121.67,USD,approved,online,Miami,2026-07-08 12:54:22.020878,False
-TXN-000009,CUST-0094,Starbucks,entertainment,56.14,USD,approved,mobile,Denver,2026-08-18 16:32:26.020882,False
-TXN-000010,CUST-0166,Walmart,dining,74.88,USD,approved,mobile,Seattle,2026-06-27 09:56:10.020886,False
-TXN-000011,CUST-0070,Best Buy,travel,2.25,USD,approved,online,Seattle,2026-08-30 08:07:10.020890,False
-TXN-000012,CUST-0081,Shell,entertainment,211.21,USD,approved,mobile,Atlanta,2026-07-02 04:38:11.020893,False
-TXN-000013,CUST-0102,Delta Airlines,travel,108.19,USD,approved,online,Denver,2026-08-23 01:50:57.020896,False
-TXN-000014,CUST-0150,Shell,entertainment,15.32,USD,approved,online,Phoenix,2026-06-20 09:00:54.020899,False
-TXN-000015,CUST-0029,Starbucks,shopping,13.04,USD,approved,mobile,Miami,2026-08-08 10:54:52.020901,False
-TXN-000016,CUST-0098,Costco,utilities,13.16,USD,approved,mobile,Chicago,2026-08-16 14:21:21.020904,False
-TXN-000017,CUST-0175,Best Buy,fuel,22.77,USD,approved,mobile,Atlanta,2026-06-22 09:06:58.020907,False
-TXN-000018,CUST-0041,Delta Airlines,groceries,45.64,USD,declined,mobile,Denver,2026-07-30 03:37:51.020909,False
-TXN-000019,CUST-0130,Walmart,fuel,34.93,USD,approved,mobile,Seattle,2026-06-26 09:19:19.020912,False
-TXN-000020,CUST-0042,Best Buy,fuel,21.65,USD,declined,online,Atlanta,2026-07-28 23:42:52.020915,False
-TXN-000021,CUST-0093,Netflix,travel,57.78,USD,approved,mobile,New York,2026-06-19 20:46:04.020917,True
-TXN-000022,CUST-0018,Best Buy,fuel,10.01,USD,approved,mobile,Phoenix,2026-08-03 22:18:57.020920,False
-TXN-000023,CUST-0136,Costco,utilities,21.73,USD,declined,mobile,Seattle,2026-08-19 18:28:20.020923,False
-TXN-000024,CUST-0172,Target,utilities,28.38,USD,approved,in-store,New York,2026-07-05 14:50:34.020925,False
-TXN-000025,CUST-0087,Amazon,dining,37.54,USD,approved,mobile,Seattle,2026-06-12 05:56:12.020928,False
-TXN-000026,CUST-0162,Amazon,travel,93.28,USD,approved,online,Atlanta,2026-06-18 10:17:25.020930,False
-TXN-000027,CUST-0072,Delta Airlines,travel,14.36,USD,approved,mobile,Phoenix,2026-07-05 03:24:19.020933,False
-TXN-000028,CUST-0105,Uber,groceries,44.32,USD,approved,in-store,Atlanta,2026-07-22 16:11:26.020935,False
-TXN-000029,CUST-0187,Amazon,shopping,54.85,USD,approved,mobile,New York,2026-06-17 10:25:06.020938,False
-TXN-000030,CUST-0087,Walmart,travel,3.85,USD,approved,mobile,Phoenix,2026-06-25 03:49:45.020940,False
-TXN-000031,CUST-0072,Delta Airlines,travel,57.12,USD,approved,online,Phoenix,2026-08-29 00:00:32.020944,False
-TXN-000032,CUST-0141,Walmart,groceries,12.22,USD,approved,mobile,Chicago,2026-06-20 14:29:55.020947,False
-TXN-000033,CUST-0061,Starbucks,utilities,5.04,USD,approved,online,Miami,2026-09-07 04:01:30.020951,False
-TXN-000034,CUST-0098,Amazon,utilities,179.42,USD,approved,in-store,Denver,2026-07-22 14:51:34.020954,False
-TXN-000035,CUST-0188,Best Buy,shopping,203.24,USD,approved,online,Seattle,2026-07-10 08:33:36.020960,False
-TXN-000036,CUST-0015,Costco,shopping,100.14,USD,approved,mobile,Atlanta,2026-06-17 02:23:08.020963,False
-TXN-000037,CUST-0123,Best Buy,fuel,22.8,USD,approved,online,New York,2026-09-02 04:57:09.020967,False
-TXN-000038,CUST-0153,Walmart,shopping,7.17,USD,approved,in-store,New York,2026-09-05 23:42:02.020970,False
-TXN-000039,CUST-0149,Costco,groceries,70.17,USD,approved,in-store,Atlanta,2026-07-06 20:48:32.020973,False
-TXN-000040,CUST-0184,Target,travel,35.81,USD,approved,online,Denver,2026-07-25 22:35:28.020976,False
-TXN-000041,CUST-0193,Walmart,groceries,8.81,USD,approved,mobile,New York,2026-06-18 15:53:26.020979,False
-TXN-000042,CUST-0130,Netflix,travel,42.01,USD,declined,online,Seattle,2026-07-17 10:14:28.020982,False
-TXN-000043,CUST-0113,Best Buy,shopping,3.1,USD,approved,mobile,Chicago,2026-08-15 09:24:53.020985,False
-TXN-000044,CUST-0077,Walmart,travel,145.03,USD,approved,online,Austin,2026-07-07 23:47:53.020988,False
-TXN-000045,CUST-0054,Target,travel,18.97,USD,approved,in-store,Phoenix,2026-07-05 22:20:08.020991,False
-TXN-000046,CUST-0014,Walmart,shopping,66.18,USD,approved,in-store,Chicago,2026-06-11 21:26:34.020993,False
-TXN-000047,CUST-0034,Netflix,travel,23.41,USD,approved,mobile,Miami,2026-08-05 00:11:18.020996,False
-TXN-000048,CUST-0020,Starbucks,dining,45.05,USD,approved,in-store,Austin,2026-07-23 06:39:23.020999,True
-TXN-000049,CUST-0079,Target,fuel,48.47,USD,declined,online,Atlanta,2026-07-01 22:41:40.021002,False
-TXN-000050,CUST-0171,Walmart,entertainment,13.26,USD,approved,in-store,Austin,2026-09-09 10:22:00.021005,False
-TXN-000051,CUST-0042,Starbucks,utilities,210.57,USD,approved,mobile,Atlanta,2026-08-26 12:16:24.021010,False
-TXN-000052,CUST-0172,Uber,entertainment,90.53,USD,approved,mobile,New York,2026-07-18 16:34:03.021012,False
-TXN-000053,CUST-0121,Uber,travel,169.31,USD,approved,in-store,Atlanta,2026-07-11 04:19:37.021015,False
-TXN-000054,CUST-0059,Uber,groceries,136.13,USD,approved,in-store,Atlanta,2026-07-08 14:22:22.021018,False
-TXN-000055,CUST-0198,Netflix,entertainment,55.66,USD,approved,in-store,Atlanta,2026-06-14 05:29:41.021021,False
-TXN-000056,CUST-0067,Starbucks,dining,153.97,USD,declined,in-store,Chicago,2026-06-22 01:46:37.021024,False
-TXN-000057,CUST-0089,Target,utilities,6.56,USD,approved,mobile,New York,2026-07-18 22:45:04.021027,False
-TXN-000058,CUST-0049,Netflix,groceries,14.09,USD,approved,online,Seattle,2026-07-16 21:52:42.021030,False
-TXN-000059,CUST-0171,Target,dining,3.78,USD,approved,online,Denver,2026-07-30 18:51:42.021033,False
-TXN-000060,CUST-0105,Target,utilities,24.61,USD,approved,mobile,Austin,2026-06-30 04:12:02.021035,False
-TXN-000061,CUST-0098,Starbucks,dining,30.53,USD,approved,in-store,Chicago,2026-07-11 01:15:38.021038,False
-TXN-000062,CUST-0111,Costco,dining,19.99,USD,approved,in-store,Phoenix,2026-07-24 11:29:16.021041,False
-TXN-000063,CUST-0131,Delta Airlines,fuel,106.87,USD,approved,mobile,Austin,2026-08-14 12:24:51.021044,False
-TXN-000064,CUST-0132,Costco,entertainment,27.47,USD,approved,online,Denver,2026-07-03 08:37:53.021047,False
-TXN-000065,CUST-0038,Amazon,groceries,20.79,USD,approved,in-store,New York,2026-07-25 18:22:38.021050,False
-TXN-000066,CUST-0162,Costco,travel,47.94,USD,approved,in-store,Phoenix,2026-07-20 08:26:22.021053,False
-TXN-000067,CUST-0168,Amazon,fuel,10.11,USD,approved,online,Miami,2026-07-02 19:07:03.021056,False
-TXN-000068,CUST-0179,Best Buy,utilities,98.23,USD,approved,online,New York,2026-07-25 20:48:50.021059,False
-TXN-000069,CUST-0119,Best Buy,dining,5.65,USD,approved,in-store,Miami,2026-08-31 04:32:50.021062,False
-TXN-000070,CUST-0115,Starbucks,shopping,261.05,USD,approved,in-store,Denver,2026-08-23 12:56:51.021065,False
-TXN-000071,CUST-0164,Netflix,fuel,89.77,USD,approved,in-store,Seattle,2026-07-08 05:02:21.021067,False
-TXN-000072,CUST-0183,Netflix,travel,14.29,USD,approved,in-store,New York,2026-06-24 23:36:56.021070,False
-TXN-000073,CUST-0099,Starbucks,shopping,1.33,USD,approved,in-store,Miami,2026-07-13 16:11:25.021073,False
-TXN-000074,CUST-0107,Amazon,travel,102.39,USD,approved,in-store,Chicago,2026-09-02 17:30:40.021076,False
-TXN-000075,CUST-0148,Shell,utilities,74.63,USD,approved,in-store,Denver,2026-08-23 16:54:18.021078,False
-TXN-000076,CUST-0108,Best Buy,shopping,79.34,USD,approved,mobile,Seattle,2026-07-28 22:50:16.021081,False
-TXN-000077,CUST-0112,Delta Airlines,groceries,89.51,USD,approved,mobile,Miami,2026-08-20 20:38:44.021084,False
-TXN-000078,CUST-0120,Starbucks,dining,5.62,USD,approved,in-store,Chicago,2026-06-19 16:47:33.021087,False
-TXN-000079,CUST-0035,Delta Airlines,travel,27.63,USD,approved,in-store,Atlanta,2026-07-02 02:23:06.021090,False
-TXN-000080,CUST-0087,Shell,entertainment,8.39,USD,approved,in-store,Denver,2026-08-31 14:39:51.021093,False
-TXN-000081,CUST-0005,Best Buy,groceries,120.31,USD,pending,in-store,Seattle,2026-08-13 16:07:34.021096,False
-TXN-000082,CUST-0167,Amazon,fuel,59.58,USD,approved,online,Seattle,2026-09-01 00:43:32.021099,False
-TXN-000083,CUST-0040,Uber,travel,25.11,USD,approved,online,Seattle,2026-07-26 16:47:18.021102,False
-TXN-000084,CUST-0197,Target,travel,4.94,USD,approved,mobile,New York,2026-08-26 01:34:02.021105,False
-TXN-000085,CUST-0080,Walmart,dining,23.35,USD,approved,in-store,Miami,2026-07-20 01:27:09.021107,False
-TXN-000086,CUST-0051,Walmart,dining,24.6,USD,approved,mobile,Seattle,2026-06-21 10:37:41.021110,False
-TXN-000087,CUST-0078,Costco,fuel,79.47,USD,approved,mobile,Chicago,2026-07-15 06:13:27.021113,False
-TXN-000088,CUST-0170,Target,groceries,61.89,USD,approved,in-store,Chicago,2026-09-02 00:50:07.021116,False
-TXN-000089,CUST-0126,Walmart,utilities,131.94,USD,declined,mobile,Phoenix,2026-08-19 05:19:45.021119,False
-TXN-000090,CUST-0046,Best Buy,shopping,39.34,USD,approved,mobile,Phoenix,2026-07-26 16:24:54.021122,False
-TXN-000091,CUST-0188,Costco,entertainment,8.64,USD,approved,online,New York,2026-07-08 15:07:50.021126,False
-TXN-000092,CUST-0063,Delta Airlines,dining,75.95,USD,approved,in-store,Atlanta,2026-06-14 08:03:24.021129,False
-TXN-000093,CUST-0084,Starbucks,utilities,86.82,USD,approved,in-store,Atlanta,2026-07-08 16:49:56.021131,False
-TXN-000094,CUST-0180,Netflix,dining,50.43,USD,approved,online,New York,2026-07-04 23:34:52.021134,False
-TXN-000095,CUST-0126,Best Buy,fuel,89.43,USD,approved,in-store,Phoenix,2026-07-25 01:30:11.021137,False
-TXN-000096,CUST-0024,Netflix,travel,41.85,USD,approved,online,Denver,2026-08-15 00:19:11.021139,False
-TXN-000097,CUST-0122,Best Buy,dining,45.38,USD,approved,mobile,Atlanta,2026-07-15 16:57:31.021142,False
-TXN-000098,CUST-0070,Netflix,entertainment,34.47,USD,approved,mobile,Seattle,2026-07-12 04:27:39.021144,False
-TXN-000099,CUST-0138,Starbucks,travel,2.54,USD,approved,in-store,Denver,2026-08-20 21:35:10.021147,False
-TXN-000100,CUST-0195,Best Buy,dining,7.85,USD,approved,online,Seattle,2026-07-10 07:29:06.021149,False
-TXN-000101,CUST-0046,Netflix,groceries,2.92,USD,approved,online,Denver,2026-06-15 23:14:24.021152,False
-TXN-000102,CUST-0142,Netflix,shopping,61.7,USD,declined,mobile,Phoenix,2026-06-21 12:13:38.021154,False
-TXN-000103,CUST-0147,Netflix,utilities,23.64,USD,approved,in-store,Austin,2026-06-16 12:53:50.021157,False
-TXN-000104,CUST-0123,Walmart,fuel,43.63,USD,approved,in-store,New York,2026-08-06 13:44:15.021159,False
-TXN-000105,CUST-0014,Starbucks,travel,143.88,USD,approved,in-store,New York,2026-07-05 15:30:27.021163,False
-TXN-000106,CUST-0196,Shell,dining,18.2,USD,approved,mobile,Seattle,2026-08-25 20:40:40.021166,False
-TXN-000107,CUST-0116,Delta Airlines,entertainment,32.7,USD,approved,in-store,Denver,2026-08-05 18:11:00.021168,False
-TXN-000108,CUST-0157,Walmart,fuel,85.52,USD,approved,online,Denver,2026-08-14 16:05:23.021171,False
-TXN-000109,CUST-0062,Starbucks,dining,16.59,USD,approved,online,Miami,2026-07-25 06:55:49.021173,False
-TXN-000110,CUST-0121,Netflix,groceries,5.81,USD,approved,mobile,Denver,2026-08-18 19:15:38.021176,False
-TXN-000111,CUST-0019,Uber,entertainment,21.53,USD,approved,mobile,Seattle,2026-07-22 19:49:35.021178,False
-TXN-000112,CUST-0058,Starbucks,entertainment,11.55,USD,approved,online,Chicago,2026-06-27 15:48:32.021181,False
-TXN-000113,CUST-0153,Costco,entertainment,160.3,USD,approved,in-store,Denver,2026-08-18 11:40:42.021184,False
-TXN-000114,CUST-0070,Best Buy,dining,100.05,USD,approved,online,Chicago,2026-09-05 21:41:10.021186,False
-TXN-000115,CUST-0083,Costco,entertainment,61.21,USD,approved,online,Chicago,2026-08-24 19:12:06.021189,False
-TXN-000116,CUST-0069,Costco,groceries,124.09,USD,approved,online,Phoenix,2026-07-31 22:27:15.021191,False
-TXN-000117,CUST-0072,Starbucks,dining,98.68,USD,approved,in-store,New York,2026-07-27 04:23:03.021194,False
-TXN-000118,CUST-0086,Target,shopping,13.39,USD,approved,online,Atlanta,2026-07-21 12:23:00.021196,False
-TXN-000119,CUST-0074,Shell,fuel,134.85,USD,approved,online,Phoenix,2026-06-20 02:22:30.021199,False
-TXN-000120,CUST-0083,Walmart,fuel,47.51,USD,approved,mobile,Chicago,2026-08-14 09:38:26.021201,False
-TXN-000121,CUST-0119,Shell,groceries,99.84,USD,approved,in-store,Phoenix,2026-08-11 06:29:19.021204,False
-TXN-000122,CUST-0014,Uber,entertainment,136.85,USD,approved,in-store,Phoenix,2026-09-05 01:42:07.021206,False
-TXN-000123,CUST-0032,Amazon,shopping,23.96,USD,approved,online,Austin,2026-07-11 17:16:52.021208,False
-TXN-000124,CUST-0142,Shell,groceries,8.0,USD,approved,online,Phoenix,2026-06-22 22:53:48.021211,False
-TXN-000125,CUST-0040,Delta Airlines,shopping,16.52,USD,approved,mobile,Denver,2026-07-21 21:20:36.021214,False
-TXN-000126,CUST-0121,Uber,utilities,34.42,USD,approved,in-store,Seattle,2026-09-09 01:17:21.021216,False
-TXN-000127,CUST-0192,Starbucks,fuel,103.23,USD,approved,in-store,Atlanta,2026-08-27 00:41:43.021219,False
-TXN-000128,CUST-0001,Netflix,shopping,119.28,USD,approved,mobile,Phoenix,2026-09-03 13:23:02.021221,False
-TXN-000129,CUST-0138,Delta Airlines,entertainment,1.42,USD,approved,mobile,Miami,2026-07-25 18:12:38.021224,False
-TXN-000130,CUST-0049,Uber,dining,43.89,USD,approved,in-store,Chicago,2026-07-12 10:35:07.021227,False
-TXN-000131,CUST-0181,Shell,utilities,33.42,USD,pending,mobile,Austin,2026-07-29 15:22:48.021230,False
-TXN-000132,CUST-0033,Best Buy,dining,16.07,USD,approved,online,Phoenix,2026-06-21 05:31:33.021233,False
-TXN-000133,CUST-0117,Amazon,shopping,8.66,USD,approved,mobile,Austin,2026-06-18 19:32:35.021235,False
-TXN-000134,CUST-0068,Target,dining,25.71,USD,approved,mobile,New York,2026-09-02 05:56:16.021238,False
-TXN-000135,CUST-0173,Best Buy,utilities,172.79,USD,declined,mobile,Phoenix,2026-09-04 05:58:50.021240,False
-TXN-000136,CUST-0159,Walmart,travel,24.42,USD,approved,in-store,Seattle,2026-08-23 01:16:21.021243,False
-TXN-000137,CUST-0026,Walmart,utilities,44.89,USD,approved,in-store,Chicago,2026-06-16 00:20:51.021245,False
-TXN-000138,CUST-0015,Netflix,entertainment,73.85,USD,approved,online,Seattle,2026-08-02 02:53:17.021248,False
-TXN-000139,CUST-0175,Starbucks,travel,28.12,USD,approved,mobile,Miami,2026-08-10 17:12:38.021250,False
-TXN-000140,CUST-0128,Costco,travel,215.07,USD,approved,mobile,Denver,2026-07-26 04:03:27.021253,False
-TXN-000141,CUST-0003,Delta Airlines,entertainment,197.92,USD,approved,online,New York,2026-07-24 10:29:08.021255,False
-TXN-000142,CUST-0151,Netflix,shopping,18.4,USD,declined,mobile,Denver,2026-07-25 21:41:07.021258,False
-TXN-000143,CUST-0051,Shell,fuel,42.26,USD,approved,online,Miami,2026-08-06 01:51:26.021260,False
-TXN-000144,CUST-0076,Netflix,groceries,22.48,USD,declined,mobile,Miami,2026-07-08 04:45:59.021263,False
-TXN-000145,CUST-0176,Amazon,dining,21.11,USD,approved,in-store,Seattle,2026-08-09 11:44:41.021265,True
-TXN-000146,CUST-0057,Uber,dining,3.26,USD,approved,mobile,Austin,2026-08-11 13:06:18.021268,False
-TXN-000147,CUST-0161,Amazon,entertainment,57.43,USD,approved,online,Atlanta,2026-08-21 15:42:10.021270,False
-TXN-000148,CUST-0076,Target,shopping,42.91,USD,approved,online,Austin,2026-08-26 21:53:18.021273,False
-TXN-000149,CUST-0094,Best Buy,dining,4.17,USD,approved,online,Denver,2026-09-08 07:04:09.021276,False
-TXN-000150,CUST-0124,Netflix,shopping,20.6,USD,approved,online,Phoenix,2026-06-18 20:38:27.021278,False
-TXN-000151,CUST-0058,Shell,fuel,144.33,USD,approved,in-store,New York,2026-08-27 07:36:12.021281,False
-TXN-000152,CUST-0068,Best Buy,groceries,17.43,USD,approved,mobile,Denver,2026-08-07 07:18:16.021283,False
-TXN-000153,CUST-0164,Target,groceries,10.39,USD,approved,in-store,Chicago,2026-08-10 16:49:46.021286,False
-TXN-000154,CUST-0144,Target,dining,41.34,USD,approved,online,Phoenix,2026-09-07 20:12:27.021288,False
-TXN-000155,CUST-0167,Shell,groceries,255.64,USD,approved,online,Denver,2026-07-29 09:04:45.021291,False
-TXN-000156,CUST-0061,Best Buy,travel,17.63,USD,approved,in-store,Miami,2026-08-07 13:46:58.021293,False
-TXN-000157,CUST-0040,Shell,shopping,67.91,USD,approved,in-store,Miami,2026-07-08 17:01:21.021296,False
-TXN-000158,CUST-0095,Uber,utilities,87.03,USD,approved,online,Atlanta,2026-06-21 04:41:37.021298,False
-TXN-000159,CUST-0095,Best Buy,shopping,17.28,USD,approved,in-store,Denver,2026-06-29 23:28:00.021301,False
-TXN-000160,CUST-0117,Walmart,shopping,79.16,USD,approved,mobile,Chicago,2026-06-16 11:02:14.021303,False
-TXN-000161,CUST-0063,Starbucks,fuel,28.51,USD,approved,online,Seattle,2026-08-07 11:33:08.021306,False
-TXN-000162,CUST-0060,Target,fuel,61.03,USD,approved,mobile,Chicago,2026-07-08 11:16:40.021308,False
-TXN-000163,CUST-0038,Starbucks,dining,61.23,USD,approved,online,New York,2026-08-14 17:33:24.021311,False
-TXN-000164,CUST-0034,Amazon,entertainment,47.04,USD,approved,online,Atlanta,2026-06-13 01:57:12.021313,False
-TXN-000165,CUST-0014,Starbucks,shopping,6.68,USD,approved,online,New York,2026-07-27 18:54:51.021315,False
-TXN-000166,CUST-0093,Best Buy,dining,109.22,USD,approved,mobile,Seattle,2026-08-10 06:29:01.021318,False
-TXN-000167,CUST-0169,Best Buy,entertainment,24.21,USD,approved,online,Chicago,2026-07-28 01:17:22.021320,False
-TXN-000168,CUST-0110,Walmart,utilities,13.39,USD,approved,in-store,New York,2026-09-06 20:37:27.021323,False
-TXN-000169,CUST-0156,Starbucks,groceries,3.5,USD,approved,mobile,Atlanta,2026-07-18 12:45:08.021325,False
-TXN-000170,CUST-0136,Netflix,utilities,54.63,USD,approved,in-store,New York,2026-08-27 13:13:43.021328,False
-TXN-000171,CUST-0168,Best Buy,shopping,68.91,USD,approved,in-store,Phoenix,2026-09-05 18:34:58.021332,False
-TXN-000172,CUST-0087,Delta Airlines,utilities,2.0,USD,approved,online,Atlanta,2026-07-22 23:36:46.021334,False
-TXN-000173,CUST-0066,Target,travel,44.06,USD,approved,in-store,New York,2026-06-20 09:44:59.021337,False
-TXN-000174,CUST-0024,Shell,groceries,16.41,USD,approved,in-store,Austin,2026-08-04 13:37:07.021339,False
-TXN-000175,CUST-0144,Best Buy,entertainment,63.17,USD,approved,in-store,Atlanta,2026-09-04 08:50:00.021342,False
-TXN-000176,CUST-0193,Shell,fuel,12.5,USD,approved,online,Denver,2026-08-08 20:14:15.021344,False
-TXN-000177,CUST-0027,Costco,dining,71.45,USD,approved,mobile,Phoenix,2026-07-03 07:42:33.021347,False
-TXN-000178,CUST-0090,Best Buy,entertainment,30.34,USD,approved,in-store,Seattle,2026-08-28 22:08:34.021349,False
-TXN-000179,CUST-0144,Costco,dining,166.62,USD,approved,mobile,Chicago,2026-08-09 16:14:30.021352,False
-TXN-000180,CUST-0178,Netflix,groceries,9.88,USD,approved,mobile,Denver,2026-09-09 00:31:08.021354,False
-TXN-000181,CUST-0002,Starbucks,fuel,26.03,USD,approved,mobile,Miami,2026-06-18 07:19:35.021357,False
-TXN-000182,CUST-0163,Amazon,groceries,8.23,USD,approved,online,Miami,2026-07-22 07:27:41.021359,False
-TXN-000183,CUST-0041,Target,entertainment,156.17,USD,approved,mobile,New York,2026-09-05 07:31:02.021361,False
-TXN-000184,CUST-0041,Costco,groceries,126.9,USD,approved,in-store,Phoenix,2026-08-14 19:36:35.021364,False
-TXN-000185,CUST-0156,Delta Airlines,utilities,18.9,USD,approved,mobile,New York,2026-07-15 01:29:30.021366,False
-TXN-000186,CUST-0073,Costco,utilities,65.73,USD,approved,in-store,Chicago,2026-07-02 23:01:33.021369,False
-TXN-000187,CUST-0154,Amazon,groceries,102.97,USD,approved,online,Austin,2026-08-24 17:48:17.021371,False
-TXN-000188,CUST-0084,Walmart,groceries,49.61,USD,approved,in-store,Austin,2026-06-24 02:12:19.021374,False
-TXN-000189,CUST-0181,Uber,dining,46.26,USD,approved,mobile,Atlanta,2026-06-18 13:07:44.021376,False
-TXN-000190,CUST-0190,Amazon,utilities,17.61,USD,approved,online,Atlanta,2026-08-06 10:47:48.021380,False
-TXN-000191,CUST-0104,Shell,entertainment,6.86,USD,approved,online,Atlanta,2026-06-28 05:40:27.021382,False
-TXN-000192,CUST-0159,Delta Airlines,fuel,137.51,USD,approved,in-store,New York,2026-07-23 22:47:34.021385,False
-TXN-000193,CUST-0063,Shell,dining,139.41,USD,approved,online,Miami,2026-09-04 01:38:59.021387,False
-TXN-000194,CUST-0087,Uber,entertainment,61.16,USD,approved,online,New York,2026-08-02 01:34:46.021390,False
-TXN-000195,CUST-0199,Target,entertainment,25.84,USD,approved,mobile,Austin,2026-07-04 11:43:37.021392,False
-TXN-000196,CUST-0066,Uber,travel,26.77,USD,approved,mobile,New York,2026-06-28 17:57:40.021395,False
-TXN-000197,CUST-0161,Delta Airlines,utilities,78.67,USD,approved,mobile,Phoenix,2026-08-16 16:20:12.021397,False
-TXN-000198,CUST-0145,Costco,entertainment,137.45,USD,approved,mobile,Atlanta,2026-06-26 04:56:13.021400,False
-TXN-000199,CUST-0121,Delta Airlines,shopping,131.87,USD,approved,in-store,Chicago,2026-07-15 17:15:56.021402,False
-TXN-000200,CUST-0080,Delta Airlines,utilities,91.81,USD,approved,in-store,Denver,2026-06-18 23:58:37.021405,False
+transaction_id,card_number,merchant_name,merchant_category,amount,transaction_timestamp,cardholder_lat,cardholder_long,merchant_lat,merchant_long,is_fraud
+efb5716ff3da7bcfba69826864ae26d0,3502377050801561,fraud_Barrows PLC,shopping_pos,3.27,2019-11-02 05:35:02,30.5354,-95.4532,31.449534999999997,-95.367228,False
+2ad51935bd1df08f7935604b23dee446,3513618443244549,"fraud_Greenfelder, Bartoletti and Davis",misc_net,15.1,2019-08-30 09:12:36,43.7588,-97.8712,44.660177,-98.247862,False
+25a9a849340ae5361f13b7a9e841e09a,213178765398315,"fraud_Lind, Huel and McClure",gas_transport,52.77,2019-12-31 09:42:19,43.0351,-108.2024,43.956334000000005,-108.04706000000002,False
+c1cceaee9ac6920077609fe90c7599aa,4908846471916297,"fraud_Turner, Ziemann and Lehner",food_dining,69.38,2019-12-12 16:43:54,32.2779,-97.2351,32.191359000000006,-96.952,False
+bd2fb831217d258dc6f39b3c9f609230,4810839835482794272,fraud_Hirthe-Beier,health_fitness,30.46,2020-06-11 22:28:19,36.7651,-94.0492,37.083603,-95.036303,False
+876ec8f997954e4acb7b375714b976a9,4560395181594436016,"fraud_Hauck, Dietrich and Funk",kids_pets,74.24,2020-05-17 13:52:23,39.047,-122.9328,39.050558,-122.631722,False
+0b05aea4795685296961e223decd67ea,30238755902988,"fraud_Baumbach, Hodkiewicz and Walsh",shopping_pos,7.09,2019-05-06 14:51:51,30.592,-97.2893,30.068897999999997,-97.143264,False
+9f0db88f3dcd0164207d8443694ca94a,3541687240161491,fraud_Botsford and Sons,home,221.06,2019-12-09 14:52:20,31.1989,-81.3322,30.71793,-81.305853,False
+d8ad583d43d6b653cbeaf791ffb4b794,343472729187663,fraud_Hilpert-Conroy,kids_pets,6.89,2019-10-17 20:47:03,43.6849,-71.2551,43.560719,-71.587383,False
+9d72c6d99920802842f56663ade67664,3566875419572867,fraud_Kilback LLC,grocery_pos,100.07,2019-05-06 09:45:33,44.64,-73.3113,44.241336,-72.790173,False
+4cae235350bb0d437d10263047df4499,38817501916673,"fraud_Heller, Gutmann and Zieme",grocery_pos,270.28,2019-01-30 01:41:50,35.4359,-81.3385,35.014237,-80.52194399999999,True
+dc61f55dd6d4f86aac00a36c5c49f97d,4671727014157745,fraud_Schumm PLC,health_fitness,9.91,2019-12-31 20:16:04,40.8618,-85.6067,41.550417,-84.764652,False
+f40c9330b2998901903455e69aa21e0c,676309913934,"fraud_Lehner, Mosciski and King",misc_net,7.53,2019-12-01 13:10:35,38.2352,-104.66,38.318493,-105.340801,False
+a04a6a9a3d802b7fbd8528b0c1b76ce6,4452366298769043,fraud_Labadie LLC,personal_care,67.49,2019-04-18 15:30:02,32.0758,-96.701,32.394295,-96.092269,False
+876d8c7ae212420bacbca03fd6b12904,630423337322,fraud_Beier and Sons,home,52.96,2019-07-25 15:48:55,48.8878,-118.2105,48.393443,-117.87788700000002,False
+53738f91486b542c42ff13494bb8a8c9,4873783502705038,"fraud_Bahringer, Bergnaum and Quitzon",home,4.67,2019-06-07 12:00:56,48.4786,-122.3345,48.48767,-123.001502,False
+5f9b0afad5542ac6810fb5270079fda2,213126662687660,fraud_Kerluke-Abshire,shopping_net,9.4,2020-05-09 23:22:19,27.5155,-99.4986,28.254605,-100.107697,False
+f32d1f4b2a918f4c2f6acdc83033ee35,676173792455,"fraud_Zieme, Bode and Dooley",gas_transport,86.19,2019-12-07 10:55:06,34.0287,-118.4924,33.287851,-118.74097,False
+4fd3149d68766a752a02ae6520cfb503,377113842678100,fraud_Bednar Group,misc_net,256.01,2019-09-18 04:41:25,39.4055,-75.3209,39.563298,-74.93776,False
+4fab7756d54cd45a2f5409fb830a23e5,30092964733035,fraud_Kuvalis Ltd,gas_transport,56.95,2019-02-28 00:17:54,38.6207,-83.8067,38.115486,-84.310983,False
+81834810d9bcb0a2c2b2f7e11ad66a15,4761403817546679245,fraud_McGlynn-Jaskolski,misc_pos,9.77,2019-03-14 17:44:25,36.3924,-91.9932,36.826916,-91.016987,False
+d7e065808b6303bb8ab96a782b50f4af,379141394109214,fraud_Friesen Inc,shopping_pos,2.92,2019-05-10 03:36:58,33.8084,-81.5956,33.092585,-81.02395600000001,False
+272f35e64faa76c7f8a7990bc20211bc,4561546772499,fraud_McGlynn-Heathcote,misc_net,9.82,2019-09-22 03:19:34,34.9889,-106.0609,34.524372,-106.842101,False
+f87bc3fafeb5638554126ad835de57e5,3595192916105588,"fraud_Boehm, Block and Jakubowski",misc_pos,6.72,2020-01-07 23:51:10,35.0583,-79.008,35.22011,-78.068351,False
+ce80a6c7aabad81c21b03b50af08b61f,30404291151692,fraud_Dooley-Thompson,misc_net,274.92,2020-06-04 01:13:57,43.0498,-78.851,42.543634999999995,-79.39188299999999,False
+5c6bd70a595b7529e0f76b067bee46ce,3568736585751727,fraud_Torphy-Goyette,shopping_pos,119.99,2019-04-27 07:40:21,41.8114,-93.4855,41.755336,-93.024919,False
+7a5b7b0bf728d44242ac7a26b99192fc,377550167323848,"fraud_Fadel, Mertz and Rippin",entertainment,29.94,2019-01-30 05:22:22,44.0948,-70.23899999999999,43.42055,-70.548354,False
+65be2b986de42a1fb2c662ace19f200e,3590736522064285,fraud_Gottlieb Group,kids_pets,73.13,2020-01-10 15:10:15,34.5091,-92.4828,34.744547,-92.012642,False
+62f18e972adb4e6013691ca66e09dd4c,4279161831637,"fraud_Mosciski, Ziemann and Farrell",shopping_net,5.24,2019-07-28 22:41:38,40.0246,-79.6955,40.661416,-79.850133,False
+47f157662aac347188905618806ab887,30238755902988,fraud_Daugherty LLC,kids_pets,3.03,2019-12-22 16:52:32,30.592,-97.2893,30.656561,-96.879683,False
+2b9e02dcdec55b6bace82467b883eab3,4708992452821239,fraud_Christiansen-Gusikowski,misc_pos,7.68,2019-12-29 02:01:11,35.8184,-91.3375,36.73236,-91.718624,False
+132e62e38e842b164464260273b689c3,3502088871723054,fraud_Jast-McDermott,shopping_pos,34.03,2019-02-04 12:51:20,39.0298,-77.0793,39.223377,-77.112364,False
+c428ba90a1185e635d84f7995f46d819,4586260469584,fraud_Jast-McDermott,shopping_pos,755.48,2019-02-02 10:16:19,40.1362,-95.2138,40.878541,-95.687868,False
+58f4b6c7b0139bd3ec01e377dfe7d1b2,4755696071492,fraud_Ortiz Group,grocery_net,70.05,2019-12-12 02:20:52,32.9643,-96.6012,33.090022999999995,-96.078578,False
+d1bb59cc6f2e8eb3b71d71d27e1fc55c,4102003771126577611,fraud_Koepp-Parker,grocery_pos,264.1,2019-12-04 01:53:21,32.9276,-97.2489,33.098306,-97.968694,True
+ce8a07d8d20850a5a22fb2f7870aaaeb,343668971234893,fraud_Berge LLC,gas_transport,79.97,2019-04-30 08:08:53,33.9349,-80.8449,33.639664,-81.457838,False
+ef457c719926aee0e580aa5cb955bc56,377264520876399,fraud_Turner and Sons,shopping_pos,20.09,2020-03-22 08:38:19,34.3424,-80.5,34.346041,-80.042299,False
+03c594e5e9ec4bebd462bca81f470d3a,4797297220948468262,fraud_Bode-Rempel,kids_pets,55.47,2019-07-14 18:43:31,38.8938,-86.5246,39.589728,-85.719142,False
+2be1b62fde2915f33bce57b02d424140,4424338559877976,fraud_Wilkinson PLC,kids_pets,14.24,2019-10-01 15:58:07,40.813,-83.4196,41.39438,-83.220713,False
+1dcb2760aefdb62b648052afd19d22db,30131826429364,fraud_Friesen-Stamm,gas_transport,66.93,2019-11-30 04:47:10,35.9335,-84.1481,34.96907,-83.97833,False
+a46ebfb20357d03c84b868b3582c4e87,4587577161160601,fraud_Lesch Ltd,shopping_pos,5.8,2019-02-19 21:45:55,44.0943,-69.4828,44.513268,-69.088202,False
+71491d9a25df3e2a407af0fc9ee55de7,30234966027947,"fraud_Bahringer, Osinski and Block",food_dining,241.74,2019-09-11 21:56:51,43.9446,-88.0911,43.983393,-87.130452,False
+ec798eec6c29ddaecbb1e7aafd8d138b,345389171551808,fraud_Koepp-Parker,grocery_pos,40.0,2019-12-08 00:01:35,33.9215,-89.6782,33.607003000000006,-89.69094799999999,False
+2e8d858b5d634506f7ad237964176b63,3526826139003047,fraud_Hills-Witting,shopping_net,4.64,2019-12-08 11:21:41,44.2529,-85.01700000000001,44.959551,-85.791179,False
+dbf6c06d3277438afdf7af883fb4285f,4716561796955522,fraud_Lynch-Wisozk,home,42.09,2019-06-30 18:43:08,48.2777,-112.8456,48.310513,-112.837535,False
+241b73ac8380648d74bb770857ef61ff,676195318214,fraud_Christiansen-Gusikowski,misc_pos,380.77,2020-04-17 21:58:23,29.6047,-96.5249,29.771592,-96.543923,False
+3143b9b06d7bd984ac83aff3ac5721c3,4365382885912355,"fraud_Kovacek, Dibbert and Ondricka",grocery_pos,312.51,2019-11-20 22:18:56,48.1439,-92.8561,48.488032,-92.519786,True
+d55b4c790adace9b733485b37e83d7a4,38052002992326,fraud_Predovic Inc,shopping_net,1080.2,2019-09-28 23:48:26,30.33,-95.0202,30.182665000000004,-94.510442,True
+b467b0d98ba0297fc9b58ecf05987b88,4710826438164847414,fraud_Gottlieb Group,kids_pets,36.75,2019-08-22 18:17:14,48.8328,-108.3961,48.301332,-107.42023799999998,False
+d985f6e8198732780a1ee9669ad0417f,3595111028444131,fraud_Bednar Group,misc_net,834.52,2019-07-26 22:16:39,36.0434,-90.2907,35.056914,-89.906683,True
+2d792d45e07c94d65adbc42091f5428b,30150717898388,fraud_Windler LLC,kids_pets,18.84,2020-02-23 12:57:30,34.7031,-86.3068,35.676574,-86.47747700000001,False
+be90bac95f54e81e466f5eb6491e9d97,344709867813900,"fraud_Streich, Dietrich and Barton",shopping_net,13.69,2019-06-06 18:41:11,27.4703,-81.4872,27.444348,-81.855756,False
+eef48a0c13194f0d5b57b79442e699d5,30238755902988,fraud_Parisian and Sons,gas_transport,48.81,2020-03-17 09:48:44,30.592,-97.2893,31.007634000000003,-97.846332,False
+899c32e8a7baeabae54485e830cdc08f,213175487106448,fraud_O'Connell-Ullrich,home,70.29,2020-03-28 13:15:54,33.0771,-99.959,33.323253,-100.700601,False
+1ff5e58319bc1883c66d9777dc99523f,374238209524200,"fraud_Rodriguez, Yost and Jenkins",misc_net,8.55,2019-09-05 07:01:22,45.0838,-120.6649,44.65727,-120.518377,False
+85788fe7d777af4ff001ba6544a0fa8b,349612764943496,fraud_Swift PLC,kids_pets,62.79,2020-03-28 20:15:24,37.1046,-83.5706,37.604845000000005,-83.032309,False
+f9ad058a47193ef05c04ec4ee761b304,4951647200979051,"fraud_Raynor, Feest and Miller",gas_transport,59.05,2019-04-30 07:59:31,37.9943,-88.9417,37.929163,-88.964212,False
+ca8d48f99364ef219930e57b863babf1,6526955903501879,"fraud_Connelly, Reichert and Fritsch",gas_transport,8.45,2019-01-10 02:55:38,26.3304,-81.5871,25.568094,-80.79047,True
+51b99f6108d4fedc7f077a073c6c0e4c,3506042666828517,fraud_Kutch-Ferry,home,107.96,2019-06-13 19:32:23,38.1372,-81.5962,37.681096,-82.177222,False
+2c7b3f9cb77729c1c572a1d9aa0bf30b,4497451418073897078,fraud_Osinski Inc,personal_care,135.83,2019-03-11 15:23:40,32.5317,-92.176,32.828745,-92.902067,False
+ff8368895be5ce7e21492d2b8e2a9f20,30242921189660,fraud_Skiles LLC,home,21.55,2019-07-18 21:57:24,45.3637,-84.4695,44.565687,-83.535909,False
+d11689ccab681df21cea7c31b7cfe50b,6011504998544485,fraud_Medhurst Inc,home,40.43,2020-05-26 12:14:53,32.5104,-86.8138,31.589749,-86.44251,False
+0828275e761ab49b78b18f845964951b,30270432095985,fraud_White and Sons,home,35.06,2019-10-15 18:23:29,40.6761,-91.0391,40.138115,-91.559257,False
+650e22072b8b52bc6d4529ec01feb8dc,4926376199189801,fraud_Sporer-Keebler,personal_care,50.45,2019-12-19 13:34:02,36.3011,-91.5281,37.135701,-91.172062,False
+80d4171e732724107c54f9c3bb1383e8,676309913934,"fraud_Schuppe, Nolan and Hoeger",shopping_pos,9.93,2020-06-06 16:40:16,38.2352,-104.66,38.675022,-105.236626,False
+b3b79a57a261a38299415613aef7e30a,30266994494236,"fraud_Hettinger, McCullough and Fay",home,38.72,2019-03-24 14:33:19,37.1349,-77.7364,36.26155,-78.176857,False
+dd98765f9be9c8f586cd2c80e9541282,36913587729122,fraud_Goodwin-Nitzsche,grocery_pos,185.04,2020-03-12 05:18:57,43.6498,-116.4306,43.409119,-117.056481,False
+c33f937520c6ccffce5d7481d3624fc4,4464457352619,fraud_Bins-Howell,personal_care,5.39,2020-05-16 21:34:47,29.8826,-84.5964,29.187751,-85.202066,False
+50a63a500791a8effbf19dc44e46915f,3508104404056005,fraud_Abshire PLC,entertainment,7.87,2019-12-28 17:53:30,42.8035,-88.4092,42.772725,-88.023229,False
+758b7b7b48613ba4f2ffc19943cfe050,3549202406645667,"fraud_Langworth, Boehm and Gulgowski",shopping_net,173.21,2019-08-27 02:02:43,43.5835,-70.3457,44.025721,-69.98530600000001,False
+968446455de2cd06885b9562e4463c08,4716561796955522,"fraud_Kerluke, Kertzmann and Wiza",misc_net,10.49,2019-07-01 03:28:26,48.2777,-112.8456,48.262302000000005,-112.403316,False
+9863253e769493944c108bf56d187793,6573561108825071,fraud_Friesen Inc,shopping_pos,1.03,2020-05-23 07:46:37,36.2395,-95.9596,36.331618,-95.006265,False
+c5e898e64b21ae9a898bc3c97555c177,630469040731,"fraud_Olson, Becker and Koch",gas_transport,51.28,2019-04-05 06:49:08,45.67100000000001,-121.8686,45.668759,-122.794025,False
+6fb9f913a9faff395ae79e4eb9112d3d,3533742182628021,fraud_Murray Ltd,grocery_net,22.21,2019-08-11 06:39:58,32.8357,-79.8217,33.704209000000006,-80.271114,False
+99ccacd84f6e31bf55db72165b2d31fb,3592325941359225,"fraud_Hintz, Bauch and Smith",health_fitness,22.39,2019-02-28 16:53:59,37.2876,-77.295,36.385715999999995,-77.861216,False
+56e4b5959328b5fdee892bacbcec8ca0,3533742182628021,fraud_Hamill-D'Amore,health_fitness,1.36,2019-09-01 12:53:10,32.8357,-79.8217,33.649977,-80.627933,False
+48486f5aefde46beb728dd2fe649093d,4476840372112,fraud_O'Connell-Ullrich,home,12.02,2019-12-22 19:57:08,34.6689,-86.2296,34.843156,-85.947012,False
+c07b20b511395b676780b0dde09e7a37,676173792455,"fraud_Torp, Muller and Borer",health_fitness,7.68,2019-07-03 21:17:17,34.0287,-118.4924,33.185675,-118.907616,False
+511051f3b44537791d153514f703b4bb,38797410705641,fraud_Dare-Gibson,health_fitness,78.05,2019-08-05 16:55:55,42.4069,-74.1528,43.376382,-74.300402,False
+d7897d2cc90ec74ea74b60e509c57e01,4259996134423,"fraud_Lockman, West and Runte",grocery_pos,132.56,2019-05-05 00:47:47,38.1485,-98.6408,38.904694,-99.021101,False
+1546fc7fd52db6f8460a24f1c6a6b103,4266200684857219,fraud_Johnston-Casper,travel,1.06,2020-06-05 19:00:30,40.201,-98.0684,40.9799,-98.823706,False
+e25ec99bd57e12107163d03480d7ffc0,4979422371139333,"fraud_Kutch, Steuber and Gerhold",food_dining,103.92,2020-03-08 13:36:50,41.4193,-99.3844,42.062659,-99.981991,False
+d4831a237dada7f3f4389ee0667ef4ce,2383461948823908,fraud_Schimmel-Olson,kids_pets,86.66,2019-02-17 15:42:14,43.745,-70.9092,42.746697999999995,-70.326249,False
+f5af81bd124bb0fcd9ebbd24e5d27cb7,4755696071492,"fraud_Reilly, Heaney and Cole",gas_transport,98.57,2019-08-27 05:48:23,32.9643,-96.6012,33.074532,-95.629691,False
+1bea6898a7f1ed0c5e4aff3facbd70a2,345933964507467,"fraud_Schuppe, Nolan and Hoeger",shopping_pos,8.63,2019-06-03 21:35:56,38.4121,-75.2811,38.763241,-75.020905,False
+d5d16e2aa51e914dfc3e594ab34d94a4,630424987505,fraud_Dickinson-Rempel,misc_pos,8.17,2020-02-15 22:22:29,39.1505,-79.503,39.526734000000005,-79.940574,False
+22c2a0ce158d238d7e478423d838b15b,2231186809828225,"fraud_Schumm, Bauch and Ondricka",grocery_pos,80.8,2019-07-29 11:35:57,32.0913,-83.7922,32.635051000000004,-82.803565,False
+46ac4265e72d02f0bb0cfb9dbd2141fe,36192615525683,fraud_Gulgowski LLC,home,76.07,2020-03-21 21:19:55,35.1506,-106.569,35.148827000000004,-105.914134,False
+bb69e08a96d1f2e58ccfb2437350e5e6,372509258176510,"fraud_Towne, Greenholt and Koepp",shopping_net,3.11,2019-05-21 17:51:01,42.9147,-83.4845,41.971892,-83.448476,False
+4665e328a3447c911d6b96005d6b2669,3567697931646329,fraud_Hudson-Grady,shopping_pos,1.95,2019-12-07 15:45:03,42.247,-73.7552,42.459934999999994,-74.009629,False
+d04c16f202cd5545bfb365a5abf7c4a6,180048185037117,fraud_Heathcote LLC,shopping_net,619.93,2019-07-12 14:02:40,40.6152,-74.415,40.638536,-74.818881,False
+077777ca4f0a41b639f1f566afb2b475,3560797065840735,fraud_Harris Inc,gas_transport,70.87,2019-07-29 00:15:15,46.1838,-101.2589,46.872523,-100.867607,False
+bde8216c1a143771c3a004f7115e20ab,4260128500325,fraud_Haag-Blanda,food_dining,8.98,2019-09-02 23:40:41,37.2409,-82.7696,37.963156,-82.06823100000001,False
+642ae61d9b8c5376f8d970300a3a5204,6564459919350820,fraud_Eichmann-Kilback,home,14.16,2020-01-19 22:27:09,42.5545,-90.3508,42.890894,-90.093006,False
+12e4f3f25a5273d72c735fe9a13e0666,30273037698427,fraud_Rempel PLC,grocery_net,18.99,2019-04-20 04:37:41,35.5762,-91.4539,35.193075,-92.353015,False
+08b2ea7d519a704173803f4021b10eb4,30235438713303,"fraud_Wintheiser, Dietrich and Schimmel",misc_pos,27.22,2019-09-02 21:51:16,38.5072,-81.89,38.726583000000005,-82.07097399999999,False
+062395d63146aca5fa7ad2aaa4077b07,180048185037117,fraud_Schaefer Ltd,kids_pets,14.68,2019-08-30 22:23:50,40.6152,-74.415,40.710206,-74.771286,False
+f617401baa7426b11d55696d31ef0829,38797410705641,fraud_Kiehn-Emmerich,grocery_pos,108.94,2019-07-17 05:39:17,42.4069,-74.1528,43.152951,-74.889674,False
+a0f9fc6a3ad65dc8275d2924368930cb,6011893664860915,"fraud_Nicolas, Hills and McGlynn",entertainment,60.56,2019-03-03 12:30:07,39.5994,-105.0044,39.526140000000005,-104.616672,False
+77108905ba2ecd284028222f6825b462,4598025465633,fraud_Padberg-Welch,grocery_pos,304.86,2019-11-02 23:55:45,40.7687,-80.3592,40.34844,-80.121801,True
+6f33ff5047dc49f178e610e7bbbed4f7,6011109736646996,fraud_Wiza LLC,misc_pos,1.8,2019-10-19 07:37:39,34.2651,-77.867,35.027873,-78.318331,False
+a4e17c6c28fbdadd9aa9022334b19aa1,4069975342931683,fraud_Jast Ltd,shopping_net,9.06,2020-06-06 13:11:26,38.4257,-81.9943,38.681578,-82.151719,False
+4e59f9c9c2483e7f0e90eae88953cad9,6564459919350820,fraud_Strosin-Cruickshank,grocery_pos,307.71,2020-06-20 23:17:07,42.5545,-90.3508,42.709068,-90.311771,True
+9c519243d9109a5a4beb7a5edeb8a7ad,6011399591920186,fraud_Gibson-Deckow,entertainment,41.05,2019-07-22 14:04:48,42.1001,-73.3611,42.39088,-72.537752,False
+6761de22a2e0ad243bde55f1fe9f142e,3559723917628303,fraud_Mohr-Bayer,shopping_net,88.7,2019-11-22 09:04:36,42.4048,-88.3054,42.297607,-87.982782,False
+002632aefdf6eb0d7144c75181ae157b,373043435942726,"fraud_Reichert, Rowe and Mraz",shopping_net,99.16,2020-05-19 00:55:43,29.479,-95.9681,30.019293,-96.366327,False
+181ffa47780d9abc5053e45b0ca3e441,3583635130604947,"fraud_Goldner, Kovacek and Abbott",grocery_pos,182.74,2019-06-30 10:40:24,40.0369,-75.0664,40.890465,-75.075629,False
+3ccaa4c4f883fa54be6cf87cc583a94b,6011381817520024,"fraud_Schiller, Blanda and Johnson",home,53.42,2019-06-01 22:01:58,41.6423,-104.1974,41.78655,-103.72741,False
+448573c0038ce68b3601a6e8ba00d0d2,4777065439639721,"fraud_Moore, Dibbert and Koepp",misc_net,65.8,2019-05-14 00:22:52,40.1334,-75.4536,40.403619,-76.37012,False
+67d044d5099bcdd36bbb6157b790a61b,379141394109214,fraud_Cummings LLC,gas_transport,40.85,2019-04-18 11:27:48,33.8084,-81.5956,33.38748,-81.809627,False
+4fbeff2834a84533c1e8ad03c5140f6a,3551217896304745,fraud_Gaylord-Powlowski,home,97.86,2019-09-21 19:14:52,44.232,-74.4905,44.519509,-75.40567,False
+581457ffa3420d7eb7db0dab5f2061fe,60487002085,"fraud_Schultz, Simonis and Little",grocery_pos,38.5,2020-02-12 04:28:36,32.3739,-90.1293,32.946021,-90.786817,False
+ded1bee3e78e103312b5e08b7d6eb568,4607072969078276,fraud_Waelchi Inc,kids_pets,41.42,2019-07-20 12:11:15,35.8985,-97.2607,35.116943,-97.658422,False
+799ad7b8b8f26de867ef481893ff7f93,3543299015720986,fraud_Morissette LLC,entertainment,455.12,2020-01-27 02:12:04,36.8809,-82.0956,37.133808,-82.221587,True
+175fa072699f4104d948ef7bac9e9b9a,3521417320836166,fraud_Price Inc,shopping_net,503.23,2019-07-21 21:30:18,39.849,-86.272,39.407817,-86.37163100000001,False
+6cdca9ecb5155cb95dbd7d8ddd2c970c,4383521454815,fraud_Ruecker-Mayert,kids_pets,108.75,2019-12-01 13:24:19,39.9347,-86.1633,39.27514,-86.202619,False
+a12f201e16d1c78eb8461e05269055d5,4605902936394,fraud_Crooks and Sons,personal_care,23.03,2019-08-28 13:58:57,32.876999999999995,-96.708,33.037197,-95.743787,False
+e1110d0abee0fb721edf50573f375814,4715741951931168360,fraud_Pollich LLC,home,1.96,2019-12-08 12:21:43,36.6966,-96.7869,36.936172,-96.35381,False
+8a7c827573db8d61116683a4c08e7528,3585740823295298,fraud_Schmeler Inc,misc_pos,70.9,2020-06-03 12:58:50,34.2956,-99.7494,35.288747,-99.824435,False
+ac1b74685e9b8758154100ac9961449c,3558652751678952,fraud_Bahringer-Streich,food_dining,43.09,2019-06-21 05:48:06,32.6205,-94.2,32.289998,-93.84484,False
+0452273f2f95e89d19aea31b377800fc,30551643947183,fraud_Spencer-Runolfsson,misc_pos,78.77,2019-07-03 09:47:28,35.1836,-81.4552,34.885016,-81.862226,False
+3962e76f6b36138c4466baa9c97146bb,3564839259330465,fraud_Jast-McDermott,shopping_pos,177.01,2019-10-13 07:56:12,38.046,-122.1866,38.330246,-121.50323,False
+974ae65fca36c9326f1e94ad42e380d2,3560318482131952,fraud_Ruecker-Mayert,kids_pets,18.11,2019-08-03 16:46:45,34.4793,-87.4769,34.967859000000004,-86.694301,False
+7928e98b39eb0b37b6cfb82825e131a0,373043435942726,fraud_Schmidt-Larkin,home,80.53,2019-03-31 21:31:07,29.479,-95.9681,29.591353,-96.308404,False
+09701d0a270e54742960c2876208c23c,30135235368675,fraud_Friesen Inc,shopping_pos,33.49,2019-07-24 19:56:22,39.1412,-94.3515,39.545681,-95.29634,False
+0207ef07a840501faaaff5c566d0345b,371226440126102,fraud_McGlynn-Heathcote,misc_net,69.05,2019-03-25 14:46:42,38.9311,-89.2463,38.181346999999995,-89.066057,False
+84925b6d612714041f73d7b5d11674df,4477156602511939689,fraud_Smitham-Schiller,grocery_net,32.67,2019-07-21 06:40:10,40.3928,-111.7941,39.541258,-111.363615,False
+0ae742e92de04b1e582660ee6bb6da97,370612217861404,fraud_Gerhold LLC,home,85.77,2020-03-29 14:10:38,40.1159,-74.8536,39.970894,-74.621677,False
+411de7127747adb4155c9f36e05537a4,3562264947797243,fraud_Bogisich-Weimann,kids_pets,16.73,2019-12-16 14:01:36,37.6047,-85.4251,36.931811,-85.745508,False
+ef2a504a994f1ce5186c8880f5e6e295,374125201044065,fraud_Pouros-Haag,shopping_pos,6.55,2019-12-11 08:43:44,38.9757,-77.0282,39.941887,-77.927153,False
+f5dad8e2d7c39d81502d846a20286659,30518206766474,fraud_Lind-Buckridge,entertainment,85.81,2020-04-03 13:10:06,36.7154,-89.6287,36.53995,-89.857416,False
+1da08d09aae65b51f43826d7321a24cb,3590736522064285,fraud_Swift PLC,kids_pets,32.48,2020-01-22 16:25:11,34.5091,-92.4828,35.250875,-93.285576,False
+aeffb7210f296c7b9096f247edfa45e0,630451534402,"fraud_Robel, Cummerata and Prosacco",gas_transport,64.36,2019-06-14 03:55:02,46.3535,-86.6345,47.162317,-86.469705,False
+1bcfde3ae5fd29d22edcd4f72df396cd,60422928733,fraud_Leannon-Nikolaus,travel,2.29,2019-02-25 20:01:10,33.6028,-81.9748,32.978286,-81.286281,False
+a91915e7fd109b4e153f401043121a9a,4561892980175,fraud_Kemmer-Buckridge,misc_pos,222.42,2019-01-29 03:42:49,39.596,-86.1309,38.96555,-85.243505,False
+2c07a54726850cc22c96341fd7e4b62b,60490596305,fraud_Cummerata-Jones,gas_transport,50.7,2020-03-22 01:00:51,34.8838,-90.7666,34.029973,-90.232747,False
+bd91c474ace2a557016d7111000b11cc,30404291151692,"fraud_Swaniawski, Lowe and Robel",shopping_pos,8.15,2019-04-13 18:13:39,43.0498,-78.851,42.882364,-79.426767,False
+a5c2f54df75a53ee9a641a8c8f773a59,4259996134423,fraud_Nader-Heller,misc_net,748.8,2020-04-20 22:17:10,38.1485,-98.6408,37.571659999999994,-98.413803,True
+607394d46c81f3be9463e27f1cc7ce59,6011231546538393,fraud_Stamm-Witting,shopping_net,1030.92,2019-10-09 22:21:43,40.9115,-74.414,40.601648,-74.677367,True
+17b19b638a84495b28677e1072c4ea24,30044330818990,fraud_DuBuque LLC,grocery_pos,176.63,2019-01-01 10:45:15,26.4722,-81.8122,26.258936,-81.972659,False
+2e3078d286059aff729bbe08bab4de91,4279161831637,fraud_Kutch LLC,gas_transport,70.09,2019-07-15 03:51:21,40.0246,-79.6955,39.111755,-78.767656,False
+46b419e63954fa0337c88db8fa8c4480,676298633337,fraud_Wuckert-Goldner,home,21.36,2019-12-16 16:31:59,39.4125,-80.6352,39.488852,-81.50616,False
+0e124337b1f23dea0691c60ce219800f,4378993458389626,"fraud_Stehr, Jewess and Schimmel",misc_net,551.05,2019-06-26 12:34:36,43.9742,-71.1503,43.002114,-71.623465,False
+ebb2c6afc71ccd2328b3026cc47b1a87,3565943051129759,fraud_Boyer PLC,shopping_net,8.97,2019-03-11 09:52:08,42.4657,-93.8262,43.056213,-93.391885,False
+6475d77100f740e7857f420890d98694,347073228412010,"fraud_Ritchie, Bradtke and Stiedemann",travel,444.29,2020-06-20 19:20:42,44.6873,-104.4414,44.346982,-103.927434,False
+439b5515d60885d680141c66aed5a0c0,2288748891690227,"fraud_O'Reilly, Mohr and Purdy",home,3.78,2019-09-01 16:29:18,35.0561,-106.5506,36.020097,-107.11228,False
+db194959b156dee693d5599a2ec54382,5144043920225212,"fraud_Streich, Dietrich and Barton",shopping_net,994.0,2019-04-03 23:48:32,36.4657,-81.814,37.324006,-80.905928,True
+2b0422f31461be588cf2f8305861e8e7,3545109339866548,fraud_Boyer-Reichert,shopping_net,8.91,2019-06-16 19:38:07,33.4783,-90.5142,33.267534999999995,-90.903386,False
+1b42716cd42adb46880ad0bd348d3ca4,6538441737335434,fraud_Schoen Ltd,kids_pets,59.1,2019-04-20 14:28:24,41.3851,-80.1752,41.539556,-79.773765,False
+ef2671c572a29e3d0d8dc01368995b50,3519232971341141,"fraud_Lakin, Ferry and Beatty",food_dining,13.04,2019-12-14 12:00:23,40.4731,-80.9596,40.732064,-81.485095,False
+89df091b059de84ad6004832ff77d5d8,2348245054386329,"fraud_Jones, Sawayn and Romaguera",misc_net,843.44,2019-01-12 22:02:44,42.1767,-79.9416,42.665706,-80.06485699999999,True
+b1ce0fcddee503ed8d3ead8c2c8a29b2,30103132002433,fraud_Gleason and Sons,kids_pets,28.76,2019-03-22 16:40:07,41.0001,-78.2357,40.295292,-77.249814,False
+831f310a491af1e559729795488a5d2e,38057513087029,fraud_Dibbert-Green,entertainment,47.64,2020-03-09 22:25:21,37.3304,-121.7913,38.170002,-121.50991299999998,False
+c50f1c3a018448a3c26bfd9f0495da70,3567879740649740,fraud_Yost-Rogahn,personal_care,52.21,2019-03-11 22:50:30,44.0577,-76.0196,43.810334999999995,-75.286514,True
+9f9952746630cc8c61f68e44583b00e1,3593399694467427,fraud_Schamberger-O'Keefe,grocery_pos,184.24,2019-07-13 04:11:47,43.2363,-78.3138,42.25556,-77.571617,False
+14aa7f734cc90d06f4b138f1daf88295,2288748891690227,"fraud_Little, Gutmann and Lynch",shopping_net,7.76,2019-06-15 02:53:38,35.0561,-106.5506,35.016104999999996,-105.69211,False
+4a7e8b9b9affc90a4a478b6ba49bf439,2657850734909997,"fraud_Romaguera, Cruickshank and Greenholt",shopping_net,987.73,2019-03-04 22:11:30,42.3749,-83.1087,42.814546,-82.624587,True
+93690baa0badfedfee3601fd81d6b33f,5289285402893489,fraud_Kuhn Group,food_dining,16.54,2019-06-14 20:08:38,45.5197,-123.8761,45.071931,-123.115404,False
+f7667fcd952f0dfb50b4adbb0e7032cc,4481131401752,"fraud_Mueller, Gerhold and Mueller",health_fitness,30.54,2019-09-09 16:33:15,42.2848,-71.7205,41.834678,-70.9943,False
+ec68dd05a61a3e2bda7035e4d495d9c7,30270432095985,fraud_Schoen-Quigley,kids_pets,46.14,2019-04-20 22:58:20,40.6761,-91.0391,39.780073,-91.309479,False
+80fc4cd0ae68f329fef207584e58d8ff,30199621383748,fraud_Dickinson Ltd,misc_pos,16.03,2019-10-27 11:53:32,33.4044,-96.2238,32.584208000000004,-96.397758,False
+352d392904061b4e31162b984b8283f1,6011399591920186,"fraud_Haley, Jewess and Bechtelar",shopping_pos,2.26,2019-04-18 22:52:59,42.1001,-73.3611,42.549985,-73.633062,False
+781e62c99786a813f8c176c9c946b094,4605902936394,fraud_Kuhic Inc,grocery_pos,84.91,2020-05-17 01:45:31,32.876999999999995,-96.708,32.12104,-95.962539,False
+4e235d505f5495da1382acbc53fb43ed,4355790796238264643,fraud_Kozey-Boehm,shopping_net,1204.44,2019-03-16 22:38:47,39.8153,-91.2627,39.478515,-91.382479,True
+875a9446bec69d8f80f4020c13c0ff93,2264937662466770,"fraud_Reichert, Huels and Hoppe",shopping_net,5.74,2019-06-28 17:05:13,29.3641,-98.4924,29.712752,-98.930742,False
+e75a517f15de109ec077f8175686d097,4425161475596168,fraud_Reichert-Weissnat,travel,3.86,2020-01-12 17:09:05,31.4647,-100.39,32.335401,-100.464433,False
+54b30050e3aef8328dbcb0e22874943b,3565423334076143,fraud_Morissette PLC,shopping_pos,949.43,2019-08-18 21:58:12,38.9763,-87.3667,39.803946999999994,-87.859911,True
+111ea9a37fa14317f929357bcae6e96d,4824023901222438,fraud_Halvorson Group,misc_pos,49.08,2019-03-08 23:51:18,31.9907,-96.9837,31.482381,-96.539632,True
+ce016e5d28212aff31ef624755f2ab53,3576431665303017,fraud_Dickinson Ltd,misc_pos,92.63,2019-12-23 04:25:21,33.5623,-112.0559,34.032555,-111.862798,False
+b4b3fa094d089846cc06373b04886ac2,4716561796955522,fraud_Auer LLC,personal_care,79.31,2019-08-05 13:07:22,48.2777,-112.8456,47.772884000000005,-113.714699,False
+997e7001922aefa064ff3459b7b6035c,5456776410929288,"fraud_Metz, Russel and Metz",kids_pets,5.53,2019-05-03 16:49:24,41.0472,-79.8089,40.146899,-79.386339,False
+8b7eca664f5590ae4a916686db43fd65,375248307838179,"fraud_Lesch, D'Amore and Brown",food_dining,55.06,2020-06-07 13:16:03,38.8564,-80.158,39.775531,-80.175863,False
+bb3f2e716b1b1e56d0b1a60daea28fc7,345389171551808,"fraud_Monahan, Bogisich and Ledner",misc_pos,588.8,2019-12-16 12:24:57,33.9215,-89.6782,33.80832,-89.995016,False
+1f6fbe200954d1933b396f5d914e9c29,2252055259910912,fraud_Jakubowski Inc,home,83.81,2019-12-06 18:52:41,44.6437,-90.1031,44.851668,-91.037552,False
+6ef6378f9b3f9b7088141a4fd87ec413,4430881574719618,"fraud_Robel, Cummerata and Prosacco",gas_transport,57.61,2019-10-10 04:58:43,39.3199,-106.6596,39.992695,-106.729773,False
+02131afbbc620b1fa315e0981417e104,30143713661454,fraud_Ernser-Feest,home,78.54,2020-04-23 18:11:48,48.6669,-96.5969,47.804735,-96.508769,False
+73b5b2ab16c1833100baf4e0d92c45b0,4904681492230012,fraud_Hickle Group,shopping_pos,3.5,2020-04-02 17:04:08,41.8467,-74.1038,42.476690999999995,-74.438783,False
+9523879f7a81bced78ba1e7d2424baea,676281772837,"fraud_Reilly, Heaney and Cole",gas_transport,49.96,2019-12-01 07:26:24,30.8836,-84.3246,31.0308,-84.62070899999999,False
+f6d789a6135c9e5be982be0491071bae,377234009633447,"fraud_Little, Gutmann and Lynch",shopping_net,357.19,2019-07-28 05:13:11,39.3716,-77.8229,40.104601,-77.930273,False
+b1363de085b458d6e1843dba33dbdeb2,377026671291680,fraud_Reilly LLC,home,37.59,2019-11-17 22:13:02,37.3272,-91.0243,37.86722,-91.507516,False
+bf70abe8e81b19e89fe2116c8e9aa7e4,4155021259183870,"fraud_Lowe, Dietrich and Erdman",kids_pets,2.42,2019-09-05 23:45:52,34.7032,-98.9591,35.702816999999996,-98.501222,False
+5a134d920bea90352377048d86e19be7,2512312531485080,fraud_Schoen-Quigley,kids_pets,11.71,2019-05-11 17:15:50,42.5164,-82.9832,43.473094,-82.002538,False
+7719b71445be8a3f236af5e9d5b944e7,213195754007681,fraud_Hammes-Beatty,kids_pets,55.08,2019-03-01 14:56:58,41.2001,-92.1354,40.36963,-91.767003,False
+c21afda3e4ff14d89b98d602d8605a7d,346273234529002,fraud_Goyette-Herzog,travel,5.2,2019-02-04 20:30:57,37.7418,-80.4626,38.276893,-79.512833,False
+e67d9d0b62dab94ad35572c765ba992d,370818583810103,fraud_Cartwright PLC,kids_pets,82.23,2019-06-19 18:00:03,39.9373,-79.1865,39.277722999999995,-79.418785,False
+367b69c2c9b47a04b6e768118bd9e1d1,3533742182628021,fraud_Lynch Ltd,shopping_pos,2.72,2019-08-17 13:12:59,32.8357,-79.8217,33.613168,-80.594768,False
+083c128a7fe443789ec6627e49c20077,571844099986,"fraud_Roberts, Ryan and Smith",personal_care,208.94,2019-12-21 21:18:32,38.2507,-85.7476,38.121171999999994,-86.24638399999999,False
+3097f61ac3228da2b1e57fb6ed34ad7d,4005676619255478,"fraud_Kihn, Abernathy and Douglas",shopping_net,4.21,2020-02-07 22:48:53,30.459,-90.9027,30.462223,-91.286153,False
+edccc036a089781dcf88466c2a96024a,376028110684021,fraud_Friesen Ltd,health_fitness,77.84,2020-01-04 20:17:45,39.7795,-93.3014,40.614306,-93.550789,False
+42dd74802479fd21d091fcfcd4c4576f,6538891242532018,"fraud_Kovacek, Dibbert and Ondricka",grocery_pos,166.54,2020-03-27 07:34:16,36.0244,-90.9288,35.384698,-91.176848,False
+6b8fdb8c8c5f39e735b2a65b8d810c77,6011197122270059,fraud_Gottlieb Group,kids_pets,172.3,2019-07-15 23:05:22,42.2665,-72.0821,41.425325,-72.455984,False
+4118fb28ddf00922554c18be641bf5ed,3560697798177746,fraud_Kozey-McDermott,travel,4.51,2019-06-03 17:55:42,33.7163,-116.3381,32.936023999999996,-116.418436,False
+27b3e5223d502c443d83c8656b5e3d0c,4099707841315751,fraud_Harber Inc,gas_transport,83.67,2019-08-23 03:53:39,38.2586,-78.4074,39.024021999999995,-77.47015999999999,False
+ecf3cff893d47eeec287958f2dcbe9f8,377113842678100,"fraud_O'Connell, Botsford and Hand",home,32.65,2019-12-16 12:40:56,39.4055,-75.3209,38.988831,-75.44242,False
+49ad072e1e7714e8bc9b5af957815d3d,30131826429364,fraud_Little Ltd,kids_pets,7.76,2020-05-02 16:12:08,35.9335,-84.1481,35.318532,-85.123649,False
+f4add517c2dba8ac4d5db89d604e3db0,4220495028289516646,fraud_Corwin-Collins,gas_transport,75.89,2019-07-12 04:40:53,33.8419,-117.6043,34.459188,-116.673031,False
+c47cc725643ab21f9d6fea6a28a43492,581686439828,fraud_Metz-Boehm,shopping_pos,6.03,2019-08-08 13:58:48,41.5205,-80.0573,41.837903,-80.79009599999999,False
+ddc203ec350519b434e8831bc285ff38,3501942333500073,fraud_Erdman-Kertzmann,gas_transport,47.96,2019-11-18 07:35:10,33.8155,-112.1202,33.830475,-111.884373,False
+0d0e13b4941cbfad1527cdf2d4b96667,378904938837132,"fraud_Swaniawski, Lowe and Robel",shopping_pos,7.45,2019-05-26 20:26:31,35.7382,-98.7388,36.273521,-99.532458,False
+c4443754dae5e7b58549b3f2ffc65313,6515067575568369,fraud_Berge-Hills,kids_pets,284.78,2019-03-06 15:33:27,36.6403,-81.7776,37.052099,-81.552627,False
+fcb6889128d08e362973b059a7184cf1,2268221587779419,fraud_Hintz-Bruen,grocery_net,68.4,2019-09-27 05:05:44,45.6892,-122.6616,44.707654,-122.438787,False
+f8f82e980bb9f0cee120ffae5d05bda1,30143535920989,fraud_Hickle Group,shopping_pos,6.1,2020-03-09 17:47:03,39.8016,-75.3478,40.676406,-75.295846,False
+3f9259ac6b5ad76d32e08827771d798c,4450831335606294,fraud_Rowe-Vandervort,grocery_net,25.89,2020-02-18 11:21:10,34.5906,-95.38,35.27138,-94.571957,False
+da7c49e4a1056088b863b54f016f64e6,213141712584544,fraud_Medhurst PLC,shopping_net,1.57,2019-08-29 15:19:50,32.153,-90.1217,32.735316999999995,-90.247614,False
+0658f17784da57d22153a27cb23c5d1d,4900628639996,fraud_Powlowski-Weimann,food_dining,78.13,2020-04-19 23:59:41,33.9056,-118.0818,34.374631,-117.850467,False
+9499cfd6d8e6420ed7e717d65a771a43,3540075240003197,fraud_Bode-Rempel,kids_pets,33.26,2020-04-07 16:27:32,44.4477,-93.4252,44.040335,-92.637429,False
+63277752932f3085014f2dff3f809317,4452366298769043,"fraud_Heller, Gutmann and Zieme",grocery_pos,92.35,2019-09-29 07:06:34,32.0758,-96.701,32.224844,-95.929588,False
+22e31e78a82a16c87caf4bbe5690c2f9,2269768987945882,fraud_Towne LLC,misc_pos,406.3,2019-11-25 08:04:51,42.6835,-77.8664,42.048337,-77.228925,False
+ce83b0d082cf92b90024c022da42d828,4642255475285942,fraud_Connelly PLC,food_dining,6.36,2019-06-23 13:51:44,38.9999,-109.615,38.828854,-109.58914,False
+2f79973640946397eafc541f200df449,4651007077623147,fraud_Corwin-Gorczany,misc_net,6.23,2019-07-04 03:17:09,46.7531,-121.9898,46.106461,-122.655216,False
+3da10247331c898e8d9291e66263946d,30030380240193,"fraud_Hartmann, Rowe and Hermann",travel,485.58,2020-01-08 17:38:23,30.2816,-99.241,30.699118,-98.95776,False
+a99ce11aa0d61157416844d70f5200b6,6593250708747804,"fraud_Schoen, Kuphal and Nitzsche",grocery_pos,203.38,2019-12-21 04:07:25,26.7383,-80.27600000000001,25.857446,-80.546217,False
+495e113cb07b42b1e85839864d1675f2,60422928733,fraud_Schumm PLC,health_fitness,7.29,2019-09-20 14:09:43,33.6028,-81.9748,33.120082000000004,-81.536589,False
+a528a8f03a05bc3a31900c435e11ef37,4373370572092720777,"fraud_Mueller, Gerhold and Mueller",health_fitness,7.36,2019-07-11 14:22:14,48.0204,-98.1186,47.890440000000005,-98.452361,False
+540a707117097b72bc66e79a93c8c9ab,38199021865320,fraud_Erdman-Schaden,personal_care,69.59,2019-06-16 18:59:05,43.196000000000005,-72.3001,43.212475,-71.81118000000001,False
+5fcd110d60b8f6d1918926a2a3ff068c,30428204673351,fraud_Spencer-Runolfsson,misc_pos,38.05,2019-07-06 07:53:54,40.3087,-76.2963,39.469646999999995,-76.943252,False
+2c9ceeda5eb8545aad50900c55bbc3c4,3533742182628021,"fraud_O'Reilly, Mohr and Purdy",home,87.26,2020-01-30 12:02:04,32.8357,-79.8217,33.623059999999995,-80.674976,False
+35f4ed41e9bacc39325ed2dc2f8bf395,4640395708703,fraud_Hills-Witting,shopping_net,6.54,2019-08-12 06:19:25,30.6576,-91.6264,30.389629,-91.819771,False
+036159293ce230b6cb3a51c93ef1f925,180014262259255,fraud_Kutch Group,grocery_net,55.26,2019-05-18 05:16:01,31.571,-86.2743,32.49091,-85.622998,False
+e7b541961f49d3b1a81fc830ccfa1b43,6517217825320610,fraud_Gislason Group,misc_pos,394.31,2019-01-29 10:19:47,31.6453,-90.1801,32.551387,-90.227784,False
+88c479e26c4be616a3079ce72d57ae60,379897244598068,fraud_Morissette LLC,entertainment,559.02,2019-07-05 08:29:23,38.3039,-85.4834,38.008871,-85.526138,False
+5cc3ea7cc2ed411cb12533e9246904fa,30371006069917,"fraud_Kihn, Brakus and Goyette",personal_care,54.75,2019-10-13 23:39:09,38.138000000000005,-89.2231,37.643343,-88.45338199999999,False
+671655ebb10aa252a395c71c0bcbf2ef,4979422371139333,"fraud_Watsica, Haag and Considine",shopping_pos,7.87,2019-06-12 06:05:00,41.4193,-99.3844,41.528425,-99.368091,False
+29755826d48c6aa7184ab061ee93abe5,377895991033232,fraud_Pouros-Conroy,shopping_pos,6.17,2020-01-15 08:32:57,41.4682,-72.5751,42.364898,-72.726024,False
+c218a14cf3b8637ce5ba9029aa7bb618,38588538868506,fraud_Gottlieb-Hansen,personal_care,29.86,2020-05-08 21:35:58,30.1886,-103.2214,29.633166999999997,-102.340923,False
+303897566830e448e0c129817545c464,630424987505,"fraud_Lakin, Ferry and Beatty",food_dining,96.65,2019-03-18 20:24:04,39.1505,-79.503,38.537908,-79.138708,False
+3b465213d659e8b4b85bd890e148bf09,4800395067176717,"fraud_Connelly, Reichert and Fritsch",gas_transport,91.2,2019-12-03 11:48:08,41.6964,-96.9858,40.843837,-97.076329,False
+62bdbb4ca07c8c6c2282365acde6b28b,6011109736646996,"fraud_Denesik, Powlowski and Pouros",home,76.84,2019-10-19 14:42:43,34.2651,-77.867,34.433576,-78.189233,False
+c88c209ee12130f6d08d350caaca1c41,3513618443244549,"fraud_Lehner, Mosciski and King",misc_net,15.15,2020-06-09 00:15:55,43.7588,-97.8712,43.317322999999995,-97.619428,False
+4d6843537ac846f1f0c3e75275f2425a,344709867813900,fraud_Fisher-Schowalter,shopping_net,111.58,2020-05-26 12:16:23,27.4703,-81.4872,27.554632,-82.292239,False
+1683f07f3d3fcc06bfcc53752d209fa6,4862293128558,fraud_Terry Ltd,home,5.01,2019-07-20 14:44:02,41.0036,-78.1104,41.312888,-77.709406,False
+c4fe7a9fca2bec4001a4a315a5b0e953,374238209524200,fraud_Kuvalis Ltd,gas_transport,30.28,2019-12-20 06:17:19,45.0838,-120.6649,46.077591,-121.050115,False
+aef5cc0b5b8597e4f2bd2fa79b5e1ccf,2266735643685262,fraud_Graham and Sons,health_fitness,57.91,2019-03-04 13:30:29,34.4959,-86.259,34.461067,-87.19662199999999,False
+9730f74f34f52a728165e72764953be7,4822367783500458,"fraud_Rohan, White and Aufderhar",misc_net,744.63,2019-06-29 22:21:57,28.0758,-81.5929,27.12797,-82.136531,True
+5ed9bf0c67e4e44a936b025e2341e219,501802953619,"fraud_Becker, Harris and Harvey",personal_care,124.25,2019-06-16 14:52:22,41.5403,-122.9366,40.990053,-122.55448,False
+01de59deb2e86d230d25a19857144124,3536918668124647,"fraud_Little, Gutmann and Lynch",shopping_net,2.68,2019-03-29 09:49:59,37.3304,-121.7913,38.297016,-122.309976,False
+7be982d08a97e336ff1bb715a5760f75,3511378610369890,fraud_Runolfsson and Sons,grocery_net,44.5,2019-08-04 03:29:51,34.7789,-86.5438,35.666007,-86.587707,False
+03b4a0d38b6b6012c73fe2814fc50156,3526826139003047,fraud_Gutmann Ltd,grocery_net,54.84,2019-10-14 04:04:21,44.2529,-85.01700000000001,43.999637,-85.931749,False
+7588f0fbd93a649ab6704e3247763ca6,3576511691045060,"fraud_Moen, Reinger and Murphy",grocery_pos,111.07,2019-10-16 07:52:23,33.1044,-81.0221,32.476982,-81.029916,False
+e4c6e0a9d7b3076e719e1bea409a3c20,4560004149983868183,fraud_Nolan-Williamson,kids_pets,90.76,2019-11-30 14:41:29,38.8881,-104.6556,38.74783,-104.470634,False
+f944cb52650399d0e7e04a8963cae73d,376028110684021,"fraud_Koss, Hansen and Lueilwitz",home,82.59,2019-07-13 20:43:16,39.7795,-93.3014,39.64217,-93.244452,False
+86925458f8274de0ed649161b1b06c3b,374497717543058,fraud_Kilback Group,food_dining,118.39,2019-12-25 19:14:13,47.1709,-100.7944,46.251974,-100.331106,False
+3a32746c9c4d603c86d166e443c48f50,371226440126102,fraud_Haley Group,misc_pos,14.01,2019-08-04 18:51:33,38.9311,-89.2463,39.570064,-89.998566,False
+549f97d953be40117da860829524f03a,30360260465747,fraud_Pacocha-O'Reilly,grocery_pos,346.26,2019-10-20 03:42:27,41.1949,-89.4409,41.922698,-88.735667,True
+468e37cd13e4bcc9278fe2feb75ff620,6011348830550197,fraud_Connelly-Carter,home,188.0,2019-07-27 12:30:21,33.4629,-86.7904,32.927033,-86.57522,False
+0224e0147c83cf54df96cb75a5dfa82b,213155997615567,fraud_Brekke and Sons,gas_transport,66.07,2020-04-09 10:01:12,40.5503,-79.3237,40.655485,-80.264588,False
+073910eeabd23ee7665cc4ffdfb9746c,30560609640617,fraud_Mraz-Herzog,gas_transport,60.73,2019-07-12 06:52:10,40.4931,-91.8912,41.237258,-92.882536,False
+fa46dc8800a0c7bceb55bcd3dae092fb,4469777115158234880,fraud_Schmitt Inc,gas_transport,89.91,2019-04-19 08:44:18,42.728,-71.181,42.404258,-71.19688000000001,False
+8c5f8ee9e47133ea653ceb56964cea9c,630423337322,"fraud_Willms, Kris and Bergnaum",shopping_pos,19.11,2020-02-08 13:18:27,48.8878,-118.2105,49.854078,-118.486627,False
+40df5efc6f5bfbfcf0ad13f89230453b,6011438889172900,"fraud_Towne, Walker and Borer",grocery_net,56.43,2020-01-23 07:09:00,34.2853,-91.3336,34.195268,-91.082158,False
+df72212e700d1c20eeae1601d17affa2,6534628260579800,"fraud_Torp, Muller and Borer",health_fitness,10.51,2019-03-25 22:33:03,44.3346,-73.098,45.179606,-73.93673100000001,False
+c55f7b6ad8c85f8e01f722ccfb97cafd,6538441737335434,"fraud_Lubowitz, Terry and Stracke",personal_care,75.68,2019-05-19 23:06:13,41.3851,-80.1752,41.190001,-79.62830799999999,False
+924ebd1b24bed29f39380100d601eaf9,4661996144291811856,"fraud_Adams, Kovacek and Kuhlman",grocery_net,50.9,2019-08-05 04:40:32,40.8555,-79.7372,41.47036,-79.515422,False
+2c827b797e5ace44d6f14be41c34765c,502012776709,fraud_Larkin Ltd,kids_pets,2.53,2020-04-11 18:10:37,42.6315,-75.1866,43.56429,-76.125416,False
+20aecd6c97fc95fad8095b57a54cc687,3518758680062249,"fraud_Kovacek, Dibbert and Ondricka",grocery_pos,68.22,2019-02-27 00:44:43,38.5677,-109.5271,39.42967,-109.254259,False
+5c6f8e67aca371b687e839dbee2cd166,347612609554823,"fraud_Okuneva, Schneider and Rau",shopping_pos,7.56,2019-10-17 12:38:32,44.8393,-69.2675,44.990868,-68.306492,False
+c4b54c16e58d9d21fe4ca78710f8fdc9,4906628655840914250,fraud_Turner and Sons,shopping_pos,5.89,2019-09-27 17:34:08,24.6557,-81.3824,24.431326,-81.932996,False
+4c719fff6fbb29393be04e6bb9ae81e0,4989847570577635369,fraud_Morissette-Schaefer,personal_care,11.48,2019-12-25 21:52:18,34.1832,-81.5324,34.065079,-82.50368,False
+7ad3fe8043486ec1d3a164653e81e2f3,6011388901471808,"fraud_Huel, Hammes and Witting",grocery_pos,95.76,2019-07-18 01:28:46,40.1151,-79.8627,39.329683,-80.433757,False
+3abfa1cff412901630cca6df4bb480a4,213125815021702,fraud_Prosacco LLC,personal_care,23.65,2019-10-13 23:09:01,42.074,-74.453,42.634454,-74.66148199999999,False
+0738172c7def8293237df340c8288f9c,213157767990030,fraud_Gleason and Sons,kids_pets,81.81,2019-08-13 13:23:24,41.606,-109.23,42.268534,-108.416548,False
+312743b581fad612475e8ba3e546730b,5540636818935089,fraud_Parisian and Sons,gas_transport,73.35,2019-07-21 01:06:17,42.6911,-71.1605,43.235031,-71.588738,False
+a32fdb52c2fafc25c6571ecdb36eb3ce,4451952084362894,fraud_Kris-Padberg,shopping_pos,130.88,2019-02-17 15:30:03,34.5444,-102.1069,35.438433,-102.676254,False
+de2809c1a5e406789bb6e651a06d849e,4328928491302401,fraud_Mohr-Bayer,shopping_net,5.62,2019-12-26 18:43:24,42.9373,-87.9943,42.937112,-87.385098,False
+045437a0d3223a5452dd9f019a5adc6d,630451534402,fraud_Leannon-Nikolaus,travel,2.57,2019-11-15 14:48:37,46.3535,-86.6345,47.193071,-86.472898,False
+b3c3a24d4ab1b4d785ed1c50b588b5e9,4471568287204,fraud_Gerhold LLC,home,45.42,2019-05-12 19:43:42,36.4899,-79.4736,36.480396,-80.313334,False
+0160c047be2e8fe1c74bfd382ea985f7,630423337322,fraud_Cummerata-Jones,gas_transport,54.88,2019-03-09 11:07:39,48.8878,-118.2105,49.150622,-118.73768,False
+94fa29a23c26a32cc73171116bf6c5a5,213153151785052,fraud_Bins-Howell,personal_care,2.73,2019-12-01 17:15:22,45.4963,-89.7273,45.324094,-88.80736800000001,False
+bb884f1bb8ffea4caf20171c32922f68,4124536010991657,"fraud_Graham, Hegmann and Hammes",food_dining,67.1,2019-03-18 10:03:44,30.5012,-87.8835,31.307595000000003,-88.447356,False
+d69643634eb3de35082eddf00f2f6e40,4225990116481262579,"fraud_Rohan, White and Aufderhar",misc_net,5.17,2019-07-25 01:23:00,20.0827,-155.488,19.83263,-155.187775,False
+3105f328652c49db43eed209f5788386,373905417449658,fraud_Skiles LLC,home,10.48,2019-09-05 21:15:03,31.929,-97.6443,31.046059999999997,-98.305623,False
+1588a70775f0c449e7b58e5d6fecdaeb,4755696071492,fraud_Bradtke PLC,grocery_pos,68.84,2019-08-04 09:35:52,32.9643,-96.6012,33.161095,-96.338404,False
+be6e0359412d8be1c1866ed3e1e2afd1,4169388510116,fraud_Bahringer Group,health_fitness,32.42,2019-06-22 15:43:10,43.033,-77.1575,42.562865,-76.98679200000001,False
+0c699971fcaed06772773e1e8631b22a,4670613943676271,fraud_Kuhn LLC,shopping_pos,4.0,2020-06-20 00:33:16,31.7706,-84.7936,31.455765000000003,-84.296814,False
+37c6580cd84f47a91b1603d7b3d559a7,4500002361389,"fraud_Lubowitz, Terry and Stracke",personal_care,64.73,2019-07-14 16:54:35,38.2833,-75.8465,38.969343,-76.10788000000001,False
+328115e7be1aaaecee93206458c30607,4952583804639909,"fraud_Romaguera, Wehner and Tromp",kids_pets,108.25,2019-12-02 14:53:56,41.2639,-80.8164,40.42928,-79.82671500000001,False
+c461952d08efbe0fdc853724d537292f,30404291151692,fraud_Thompson-Gleason,health_fitness,10.51,2020-05-15 21:00:43,43.0498,-78.851,42.624823,-77.914037,False
+ed2cf4a863b30cc734c6d58c6d1fe95d,30029052116970,"fraud_Olson, Becker and Koch",gas_transport,100.26,2019-03-09 03:05:08,42.1239,-79.1895,41.646177,-78.691296,False
+8354660cd9a75d4defd0fd87100c2431,60490596305,"fraud_Romaguera, Cruickshank and Greenholt",shopping_net,59.52,2020-01-25 06:15:16,34.8838,-90.7666,35.280512,-89.84240799999999,False
+27ea3882052da91b31f6d948e17a87b9,213161231269724,fraud_Fadel Inc,health_fitness,1.07,2019-12-16 20:53:54,34.048,-85.9246,34.014546,-85.621486,False
+04ed747813c7e52dc4ed244140a3eba1,2291163933867244,fraud_Padberg-Welch,grocery_pos,99.33,2019-06-10 03:10:47,33.9659,-80.9355,34.745666,-80.220012,False
+48c8e30ace61b9a3a256a98c206406f4,180094419304907,fraud_Durgan-Auer,misc_net,5.91,2020-03-26 00:48:19,33.7467,-117.1721,32.843874,-117.746839,False
+e07174831b40444fee5756fb12751349,4908846471916297,fraud_Schmidt-Larkin,home,83.75,2019-11-30 23:50:44,32.2779,-97.2351,32.938808,-98.035579,False
+cb91d34847d6095f6b8953a6d766b114,4060579726528237,"fraud_Hodkiewicz, Prohaska and Paucek",travel,2.81,2019-07-25 20:42:03,39.2136,-95.4404,38.372227,-94.838233,False
+f19427018d2aeced9cbd4000a5c46503,3523898249167098,fraud_Schoen Ltd,kids_pets,8.96,2019-05-02 22:37:36,40.8798,-73.9067,40.531662,-72.97306999999999,False
+0cdac88037d02b60d1e3ce36330ef40a,3597337756918966,fraud_Simonis-Prohaska,misc_pos,5.68,2019-07-13 06:31:49,39.7813,-76.7477,39.692085,-77.487659,False
+cb884c4e5dec5d6f69825196f52c344a,3568255211412877,"fraud_Wuckert, Wintheiser and Friesen",home,57.59,2019-09-04 16:21:33,41.2249,-85.0301,41.534209,-85.447245,False
+4ffad9f5a718f221678d1b854beff64b,340953839692349,fraud_Heller-Abshire,grocery_net,56.85,2020-01-09 04:38:55,42.5164,-82.9832,42.625166,-82.05185999999999,False
+2c046d46d2d8e4bac7297171266b2d77,3573030041201292,fraud_Kuhn LLC,shopping_pos,2.81,2020-01-17 20:26:27,40.3207,-110.436,40.222788,-111.308412,False
+ad05d56a95a04d9d97ae0e15792d2f2a,4079773899158,fraud_Jast-McDermott,shopping_pos,4.81,2019-08-22 02:00:35,44.6255,-116.4493,43.717532,-115.629508,False
+7066febaaaca5b2a59092b5e00f356f7,4292743669224718067,fraud_Ledner-Pfannerstill,gas_transport,57.05,2020-05-12 06:03:12,38.2674,-76.4954,39.208756,-77.077451,False
+cf0b25b99b34a13f17a07a01a3e6e906,4613314721966,"fraud_Mosciski, Gislason and Mertz",grocery_pos,109.61,2019-08-05 07:12:16,35.9946,-81.7266,36.672991,-81.26343299999999,False
+69ec3bb518fe94207b580f61cf81adc9,36913587729122,"fraud_Larkin, Stracke and Greenfelder",entertainment,84.95,2019-03-15 18:59:03,43.6498,-116.4306,43.565042,-116.11224,False
+d7bf0d1a790896544776bda8f8d8bbc0,373905417449658,fraud_Ruecker-Mayert,kids_pets,59.2,2020-01-09 16:30:30,31.929,-97.6443,32.0219,-97.046486,False
+f8c18323a619162753f1d21857c7d88c,30328384440870,fraud_Berge LLC,gas_transport,68.9,2019-04-11 02:28:08,40.029,-93.1607,40.474291,-92.243271,False
+28f8427f71387feccafc94f7fbbfd2c7,675990301623,fraud_Schmitt Inc,gas_transport,35.68,2020-03-09 07:47:33,41.0767,-74.5982,42.070440000000005,-74.28084,False
+f43f621d572b927802144d2ed00594bb,4570636521433188,"fraud_Heathcote, Yost and Kertzmann",shopping_net,2.56,2019-05-31 12:52:57,28.8989,-81.2473,28.788886,-80.88261,False
+46a0a5977bfc5de94086efd7fc7b9bd1,373043435942726,fraud_Gislason Group,travel,497.78,2020-05-31 13:11:26,29.479,-95.9681,29.298376,-96.93979,False
+df4c900a2fd34f2e01ff4c62df8d52f9,4874017206859125,"fraud_O'Connell, Botsford and Hand",home,56.82,2019-09-24 22:30:16,45.4093,-122.6847,45.93453,-123.536538,False
+7b64099d025e583244706caab0b34b33,30234966027947,fraud_O'Connell-Ullrich,home,15.5,2019-01-13 17:06:40,43.9446,-88.0911,44.403366,-88.855,False
+a7127a7e8fb4d6657a034be01907cc1c,3540075240003197,fraud_Jast and Sons,food_dining,1.48,2019-12-11 23:29:19,44.4477,-93.4252,43.978434,-93.764856,False
+e4cc814e624200e657c2c12c6392de4f,345832460465610,"fraud_Nicolas, Hills and McGlynn",entertainment,17.66,2019-06-22 04:18:15,38.8029,-77.2116,39.623486,-78.086855,False
+bc320135fa1a1168ea57cdac7bb3a408,3513506355699497,"fraud_McCullough, Hudson and Schuster",food_dining,48.95,2019-06-21 00:31:38,32.4122,-90.1207,32.663637,-91.007342,False
+9ec3f5af213b85de617085d8f8e4973b,371034293500716,"fraud_Zboncak, Rowe and Murazik",shopping_net,5.46,2019-12-03 04:05:27,40.0235,-120.7986,39.964315,-120.084391,False
+dbe2281800e3d1f09e041560fba6ec1c,630423337322,"fraud_Hyatt, Russel and Gleichner",health_fitness,11.82,2019-08-22 18:58:20,48.8878,-118.2105,48.556013,-119.141842,False
+aae7de696c70416ec4289b69c604baa0,180084695172649,fraud_Berge-Hills,kids_pets,122.48,2019-04-21 17:52:33,39.3036,-89.2853,40.014556,-89.20042099999999,False
+6b2e5ec3645f9ab7c19d7f95c2c259f5,4063094974360571498,"fraud_Tillman, Dickinson and Labadie",gas_transport,42.54,2019-11-02 10:45:00,41.71,-111.9817,42.249988,-111.168966,False
+c2810dd0047e734b57a2f0ea8336c633,4689147265057948423,fraud_Huels-Nolan,gas_transport,49.21,2019-07-31 03:34:42,40.9207,-96.168,39.934585,-95.197574,False
+0680a00353a708501c679b2e25c04200,630423337322,"fraud_Brown, Homenick and Lesch",health_fitness,221.58,2020-04-19 21:44:45,48.8878,-118.2105,48.423617,-119.049091,False
+d7ba60db7b983b938b394f8e115d2f70,4601636330889,"fraud_Heller, Gutmann and Zieme",grocery_pos,36.0,2019-08-18 00:22:02,30.0041,-95.2825,29.409627,-96.108187,False
+fe39f4fa3fe9fbda572bf608a29b5e94,6011366578560244,fraud_Ruecker-Mayert,kids_pets,35.26,2019-08-21 17:03:41,40.5046,-77.7186,40.750288,-77.811489,False
+3fb67efc851fefe6c5e28e376d45a9bb,30491348102802,"fraud_Lowe, Dietrich and Erdman",kids_pets,91.5,2020-04-08 14:40:06,39.6094,-100.4112,40.031441,-100.607065,False
+47bf1a4598a346618ed206011a8b7e27,4474324669797121,"fraud_Herman, Treutel and Dickens",misc_net,1133.81,2019-08-07 00:13:37,37.7773,-119.0825,37.12013,-119.565088,False
+768c3745b181460a5f723f905e7cc17a,3576021480694169,"fraud_Schmeler, Bashirian and Price",shopping_net,5.07,2020-06-09 17:13:55,39.1329,-95.7023,38.795984,-96.37005,False
+410b4316a0081651942978e1b8f913a3,4430881574719618,fraud_Bahringer Group,health_fitness,7.65,2019-04-13 20:55:40,39.3199,-106.6596,38.526959000000005,-105.956604,False
+6379bb4eae5289deabb2da690f151398,4005676619255478,"fraud_Schultz, Simonis and Little",grocery_pos,87.34,2019-12-09 01:36:49,30.459,-90.9027,31.229152000000003,-91.261237,False
+4513c438fbea1d881e385c9a7ff0c4ef,378904938837132,fraud_Conroy-Cruickshank,gas_transport,71.96,2019-11-11 10:40:02,35.7382,-98.7388,35.485537,-98.62192,False
+d4aa2413e525af34e0a973c929ff18f9,4800395067176717,"fraud_Greenholt, O'Hara and Balistreri",shopping_net,20.51,2019-06-23 10:36:45,41.6964,-96.9858,42.68084,-97.742356,False
+890f70dc4558f0aa729fb7076b1eaf60,3531606252458308,fraud_Turcotte-Halvorson,misc_pos,231.99,2019-12-01 08:15:01,42.4828,-71.0978,41.641605,-70.99285,False
+3d6ebd1948a16fcd796db64d4d581ff8,4756039869079882102,fraud_Donnelly LLC,entertainment,49.93,2019-08-01 02:55:32,33.6547,-97.1583,32.658111,-96.982135,False
+7f1519a93dfe52abafa8936949d99a33,4761403817546679245,fraud_Botsford and Sons,home,58.6,2019-11-17 14:55:46,36.3924,-91.9932,36.568379,-92.298126,False
+98c4889eaa509ad99a32f78159a444d1,4244953610136705533,fraud_Kihn-Fritsch,food_dining,49.84,2019-08-20 17:19:39,39.485,-74.8776,38.790887,-75.561492,False
+487132ca15bcf349e3217f22147260b1,4629451965224809,fraud_Kovacek Ltd,travel,1.18,2020-05-31 19:34:34,30.9416,-83.3574,31.403540000000003,-82.737288,False
+21ad9591ef2a63155966a914ccf92a1b,3541554378551366,fraud_Parisian and Sons,gas_transport,88.06,2019-03-04 06:38:47,37.0462,-76.4096,36.571527,-75.581837,False
+49ed8b7e4a379bf5588b653cf4e4e2e2,6011504998544485,fraud_Koepp-Witting,grocery_pos,95.58,2019-03-03 10:44:42,32.5104,-86.8138,32.236827000000005,-87.53178199999999,False
+ff74a9e24f967f1c669b77de4be85595,4587577161160601,"fraud_Reichert, Huels and Hoppe",shopping_net,7.86,2020-01-05 21:11:31,44.0943,-69.4828,43.600633,-70.416437,False
+2de2f74a8f9a5e7efd652b033ee1f78b,6506116513503136,fraud_Volkman-Predovic,shopping_net,24.99,2019-03-04 20:23:04,32.2768,-95.3031,32.281978,-96.302867,False
+c3100f8b05662b25fccd9524f0f598b8,4427805710168,fraud_Cruickshank-Mills,entertainment,40.16,2020-06-01 13:15:53,33.3305,-105.6933,33.454236,-106.012544,False
+edb101d10be70c8747c093e4540eaebc,6544734391390261,fraud_Torphy-Kertzmann,health_fitness,21.32,2019-04-14 20:59:06,41.55,-87.4569,40.621373,-88.329217,False
+148df851217356e2675df843391e5d19,2235613922823698,fraud_Emard Inc,gas_transport,62.7,2020-02-15 03:04:43,42.73,-104.7024,43.675977,-104.205826,False
+fbf5e88d4643ff58cdea2ebc2e13afa9,374238209524200,fraud_Gottlieb Group,kids_pets,5.03,2019-09-01 14:00:05,45.0838,-120.6649,45.404889,-120.391765,False
+3c086367ade459453772f7a717cb598b,213124978348176,fraud_Miller-Hauck,grocery_pos,316.37,2019-05-29 23:48:57,42.32,-78.0943,42.311352,-77.378428,True
+484eff81bd47131f12977154047c4a60,4855488158131690372,"fraud_Christiansen, Goyette and Schamberger",gas_transport,72.75,2019-08-28 11:18:46,44.1554,-72.4847,43.168748,-72.740002,False
+13a2673e3ee35a781310c5d6381d855d,2288748891690227,fraud_Bednar Group,misc_net,801.83,2019-02-13 22:05:06,35.0561,-106.5506,34.487789,-105.783679,True
+9aa8460e31e957349c1416c242844a03,4509922033272157,"fraud_Bahringer, Osinski and Block",food_dining,14.0,2020-01-27 21:03:07,43.2893,-97.1904,43.340507,-96.306739,False
+671877fb36919665022f09a7ab570292,3567527758368741,"fraud_Yost, Schamberger and Windler",kids_pets,26.28,2020-05-17 16:05:19,31.8351,-101.0017,31.699506,-100.233523,False
+f2e789e8a9a3f23c1fa44f156578e3a2,348789608637806,fraud_Beer-Jast,kids_pets,31.47,2019-04-11 20:50:53,40.4542,-98.6538,39.808418,-99.483482,False
+711548b0e2fefc30fae48b02d0bac24f,3531129874770000,fraud_Erdman-Ebert,personal_care,25.33,2019-05-02 19:01:41,43.8065,-73.0882,43.835921,-72.183325,False
+252c4782fb49076bc0c32dcf3ec7f7eb,213161231269724,fraud_Cole PLC,grocery_pos,107.2,2020-04-27 06:38:51,34.048,-85.9246,34.229423,-85.708038,False
+14045a903f503998f30c09d6674e8ac5,30442439074871,"fraud_Tillman, Fritsch and Schmitt",misc_net,136.48,2019-02-16 01:50:19,41.5744,-75.5881,41.074490999999995,-75.083331,False
+de8f1f8d60a8a2bcc7b9da69d353b265,4855488158131690372,fraud_Waelchi-Wolf,kids_pets,42.32,2019-08-05 20:44:33,44.1554,-72.4847,43.371907,-71.490868,False
+ae3f4b0a60b4b7a93ba046eee610b40d,4797297220948468262,"fraud_Hahn, Bahringer and McLaughlin",personal_care,6.12,2019-11-18 22:47:28,38.8938,-86.5246,39.787896999999994,-85.75891899999999,False
+426cc8d12cb7ef8d2ddef9c8445d0aeb,4116554952971686,fraud_O'Keefe-Hudson,grocery_pos,93.78,2020-04-11 11:27:43,27.2625,-80.3793,27.34845,-80.09544100000001,False
+26342844407fd976691ce1febfa5fc68,4550599031376731,fraud_Rau and Sons,grocery_pos,74.58,2019-10-04 09:39:10,40.7559,-82.5123,41.516893,-82.983069,False
+89b1bc942da85eb89887cefec2cfdaf7,4745996322265,fraud_Stamm-Witting,shopping_net,17.12,2019-10-29 17:03:34,41.4802,-86.6919,41.148171000000005,-86.590552,False
+03a260ef2d73599c774a6cb6a5b13456,4259996134423,fraud_Hermann and Sons,shopping_pos,2.64,2019-05-03 10:24:50,38.1485,-98.6408,38.699669,-98.605815,False
+854b12c220c7bf5024bcca6cebb7c4d8,3541160328600277,fraud_Johnston-Casper,travel,9.8,2019-11-21 19:02:30,39.5723,-90.2379,40.234332,-89.787524,False
+5583ada8615e39ba580266a7e8c0fd53,340951438290556,"fraud_Dare, Casper and Bartoletti",kids_pets,5.12,2020-01-04 15:01:03,41.0442,-73.9609,41.002699,-73.186486,False
+b5337c1a073dac20cedd3614963d94b4,213126662687660,fraud_Lebsack and Sons,misc_net,2.26,2019-11-29 09:28:30,27.5155,-99.4986,26.584932,-98.756796,False
+9553f00c06d7f81b3e781e49ddc5ff3a,3513285035244624,fraud_Donnelly PLC,misc_net,165.9,2019-09-29 03:08:25,37.7256,-81.1087,37.918927,-82.00155,False
+ce33281a48f18ae3751f53a82e04bb51,4124536010991657,"fraud_O'Connell, Botsford and Hand",home,13.3,2020-05-09 13:08:05,30.5012,-87.8835,31.394109000000004,-86.998685,False
+95d1620ca4a00fdb03d93093db72451f,4651007077623147,fraud_Abbott-Steuber,personal_care,22.86,2019-02-16 19:13:24,46.7531,-121.9898,46.599342,-122.961802,False
+894b8595b00224ea516f6a057a6dbd98,3557442674264531,fraud_Lemke-Gutmann,shopping_net,868.0,2019-12-11 22:37:25,39.8013,-82.8125,38.819028,-82.364296,True
+4da21bedd643f706d7e89c9b97402369,60490596305,"fraud_O'Reilly, Mohr and Purdy",home,349.79,2019-05-11 23:29:26,34.8838,-90.7666,34.064698,-90.963042,False
+4f2dda40e9c8fe19512eef9853cb6471,340103199302564,fraud_Fritsch LLC,travel,3.63,2020-04-18 23:50:05,36.1183,-79.5685,36.922745,-79.752201,False
+daae0cdf3a4ec47c2c3ef2e1d45f27bf,676102124465,fraud_Terry Ltd,home,59.59,2019-08-15 13:05:03,38.4549,-122.2564,39.194419,-122.937522,False
+529ddff2dffef650137c994bafb29a69,4048508450704760,fraud_Vandervort-Funk,grocery_pos,92.7,2019-02-04 11:51:06,41.36600000000001,-98.0054,40.736028999999995,-97.493977,False
+22e1e5c383b7edb8113d0bbabaf6c80b,6011438889172900,fraud_Fisher Inc,shopping_net,173.17,2020-04-21 21:02:11,34.2853,-91.3336,33.652756,-92.064113,False
+bfcb2a7dbdb801ef3ffda993f05c095f,3508104404056005,"fraud_Casper, Hand and Zulauf",grocery_pos,55.07,2019-05-12 06:11:50,42.8035,-88.4092,43.088103,-89.19909,False
+e9d4fcd33076129853a7b0d921291028,4810789809665942990,"fraud_Schultz, Simonis and Little",grocery_pos,126.06,2020-01-10 05:14:42,39.5756,-83.7153,40.545142,-82.766694,False
+8214012b0ec97337145227515f452e50,30238755902988,fraud_Corwin-Collins,gas_transport,43.56,2019-06-05 02:09:12,30.592,-97.2893,31.417273,-97.967841,False
+e0b34bcb2d1f90c9aa20c8680512af16,30230540139182,fraud_Eichmann-Kilback,home,60.62,2020-06-01 12:01:45,40.9661,-76.8575,40.578915,-76.295059,False
+a1cf6929aa45177128f159626c60ae8a,5104807169438134,"fraud_Lehner, Mosciski and King",misc_net,188.71,2019-01-08 05:15:39,40.8295,-72.6473,41.616289,-73.413219,False
+6132e60882546fe86b12b2bf6973dac7,2720433095629877,fraud_O'Connell-Ullrich,home,15.12,2019-12-07 18:50:26,44.0575,-69.9656,43.410166,-70.066847,False
+9967b09f2e5795404a148a5e06d4fa2d,4560395181594436016,"fraud_Bradtke, Torp and Bahringer",personal_care,23.78,2020-05-31 16:06:37,39.047,-122.9328,39.898946,-122.01176,False
+1d023bc78ab93ab65a35bbb53bcc67bd,4658490815480264,fraud_Hackett-Lueilwitz,grocery_pos,99.3,2019-12-04 07:07:04,39.9636,-79.7853,39.582871999999995,-78.83855,False
+c51fdc07b0c67a6cd2896275a955157e,4623560839669,"fraud_Christiansen, Goyette and Schamberger",gas_transport,58.98,2019-04-08 07:21:56,42.2619,-94.5566,42.871437,-94.069521,False
+6fec282e0820d2352ee5d314bc912d19,573860193545,fraud_Schmitt Inc,gas_transport,75.01,2019-06-02 02:07:00,42.0765,-87.7246,42.770979,-87.95137700000001,False
+f89afdbd9b496e2160fca4219fc312c6,639030014711,"fraud_Eichmann, Bogan and Rodriguez",gas_transport,71.16,2019-09-07 09:45:21,37.1935,-89.0933,37.068408000000005,-88.944934,False
+d40e44dec88c36b85c8fdf340a7b3525,3564839259330465,fraud_Ullrich Ltd,kids_pets,92.07,2019-03-03 12:23:18,38.046,-122.1866,38.746862,-122.023994,False
+5ed4835c102855863c02d9ad5355cdbf,3528040995648998,fraud_Brown PLC,misc_net,830.09,2020-03-08 22:19:08,34.381,-81.109,34.762721,-81.015433,True
+ba3e886475e177e412d7ec636e93274e,5388659976630693,fraud_Kuvalis Ltd,gas_transport,90.93,2019-06-23 09:24:22,43.2064,-90.9405,43.619532,-91.070283,False
+9f0efb7ce2d263b69368b4e7ca5c43fd,4228411452607671,fraud_Simonis-Prohaska,misc_pos,5.99,2020-01-27 14:13:23,44.3229,-69.9576,44.376657,-70.603481,False
+4d58135ff8e64589ee844020907adf32,30235438713303,"fraud_Klocko, Runolfsdottir and Breitenberg",health_fitness,13.78,2020-04-11 15:19:51,38.5072,-81.89,39.019788,-82.872853,False
+03ae5133c061cf2a990ab8f55ea0a50e,180056173248083,fraud_Torp-Labadie,gas_transport,62.75,2020-01-21 11:18:49,43.4269,-85.2924,43.345611,-85.262235,False
+b88c0009f712a9f5088809286bc6b05d,4003989662068504,fraud_Pacocha-Weissnat,kids_pets,21.21,2019-05-25 15:16:45,33.3224,-86.9657,33.484452000000005,-87.542328,False
+c8ba533898ecdf6669e338a05dea7f91,180048185037117,fraud_Schmidt and Sons,shopping_net,4.06,2019-11-18 20:19:31,40.6152,-74.415,41.526438,-74.976395,False
+007d117e3d75e7daaec7b6c58b953502,3558652751678952,fraud_Wuckert-Goldner,home,82.32,2019-11-30 18:49:58,32.6205,-94.2,33.392231,-93.503361,False
+3f002b54e61588c1ed7226fda5a5fcec,4255397449664185994,fraud_Kutch-Wilderman,home,28.15,2019-07-15 19:56:48,32.69,-96.9177,32.998671,-95.957569,False
+8f26d29f99dc56d6d20a8134182a8dc8,3551217896304745,fraud_Dach-Borer,grocery_net,74.63,2019-06-09 11:01:25,44.232,-74.4905,44.253664,-74.115398,False
+7774028e2583c0a43f7ea5e0308d414f,30082025922891,fraud_Padberg-Rogahn,entertainment,133.3,2019-03-30 07:34:25,26.1184,-81.7361,26.898432,-82.728311,False
+1238c8547b7f91350adcf209b37dd44a,2269768987945882,fraud_Botsford and Sons,home,24.41,2019-05-26 22:59:00,42.6835,-77.8664,43.6775,-76.97081,False
+c2f0436aa74543adbbef53a059104681,2450829271795901,fraud_Corwin-Collins,gas_transport,10.12,2019-08-03 05:56:11,45.604,-94.1591,45.741596,-94.837767,True
+00dc2a92b6cf0b6eb16e8faef7c6a49e,4477156602511939689,fraud_Larkin Ltd,kids_pets,39.61,2020-04-27 12:47:12,40.3928,-111.7941,39.451583,-112.734235,False
+84943eff82d3ac2a346b4e19b5552fca,4383521454815,"fraud_Larkin, Stracke and Greenfelder",entertainment,8.57,2019-08-31 20:09:59,39.9347,-86.1633,39.766918,-86.27072700000001,False
+d9573bb3e2a1d0609cfeee515d5efade,2305336922781618,fraud_Barton LLC,kids_pets,21.08,2019-09-04 22:31:20,40.6866,-92.6833,41.465711,-91.995737,False
+89238c9e4020ea69794c31c45095f795,4244953610136705533,fraud_Padberg-Welch,grocery_pos,94.04,2020-05-07 06:18:51,39.485,-74.8776,39.586859,-75.584974,False
+1b019527467b76c3a24f21bbe6171cdb,4911818930706644725,fraud_Bailey-Morar,grocery_pos,355.37,2019-03-15 01:07:29,33.4317,-111.8469,33.579355,-111.88588,True
+05033168c61532bf2bbe2e1ec4c6fa01,3521815216091574,fraud_Boyer-Haley,travel,514.86,2019-07-29 21:10:49,39.7532,-105.6356,39.120993,-105.670939,False
+10ffbae98c0f7358f50224646a660ce0,30434173205605,fraud_Cummerata-Hilpert,entertainment,24.82,2019-03-13 23:56:25,44.453,-123.1065,44.051771,-123.153621,False
+c24fbddad4134c76f15eb67a9e23a91b,370877495212014,fraud_Lubowitz-Walter,kids_pets,98.06,2019-01-07 13:04:42,36.2017,-81.1286,37.104541,-81.870254,False
+2681869f53896cd9faaa605287f8f996,3590736522064285,"fraud_Yost, Schamberger and Windler",kids_pets,41.09,2020-06-06 20:33:19,34.5091,-92.4828,34.678666,-92.289371,False
+e6df619d1adc209e76c77239bcce5b04,30428204673351,fraud_Torphy-Kertzmann,health_fitness,74.27,2019-05-31 13:15:01,40.3087,-76.2963,40.91217,-75.34973199999999,False
+cfeba3168dd74cb1cd811ff5ae2db0f6,213148039875802,fraud_Bernier and Sons,kids_pets,145.62,2020-05-30 12:39:47,27.9551,-82.2966,28.645209,-82.279664,False
+05ade87c77db7a26a671b3a8e575506f,180067151859700,fraud_Deckow-O'Conner,grocery_pos,207.83,2020-02-21 04:08:26,41.5378,-88.0572,41.127044,-87.479762,False
+cff1bd4d0a9d5fce968dc949ee89c364,630451534402,fraud_Stark-Koss,home,28.24,2019-02-15 20:37:10,46.3535,-86.6345,45.980831,-86.300657,False
+a41f6264b167814e9f79362ca84a1da0,4319584480204988982,fraud_Kerluke PLC,misc_net,4.37,2020-01-02 05:40:45,37.1788,-82.695,36.803976,-82.79339,False
+08eb781e9d1b749f45727330605b459c,343819048608995,fraud_Berge-Hills,kids_pets,72.06,2019-07-13 17:22:57,41.5855,-93.6719,41.832122,-94.266019,False
+14b2700f00b6667420dde53b2510e209,30044330818990,"fraud_Heathcote, Yost and Kertzmann",shopping_net,6.52,2019-02-06 17:54:23,26.4722,-81.8122,26.554593,-82.484359,False
+ddeb1e9c8fc778dd2065ec03cda38ed4,180064817343047,fraud_Torp-Labadie,gas_transport,82.07,2019-05-26 02:02:07,37.9048,-86.524,37.054671,-86.117733,False
+a99b20f16086a9cf0e349864dbdebdcb,4210078554961359092,"fraud_Lind, Huel and McClure",gas_transport,52.34,2020-02-04 02:01:01,43.92100000000001,-122.7806,42.953741,-123.693996,False
+261156a1f2dc44d7db31c985c3024ac3,4518350514020532,fraud_Goyette-Gerhold,kids_pets,141.39,2019-10-21 17:50:30,27.5517,-81.8074,27.611997,-82.163833,False
+4f99effec7f0a547a9b6142697693f7e,4279161831637,fraud_Skiles LLC,home,49.07,2019-12-10 22:21:37,40.0246,-79.6955,39.689232,-79.976077,False
+b79a0e5afe3fdad10c787a9f0c213a34,370612217861404,fraud_Shanahan-Lehner,personal_care,3.85,2019-12-03 15:06:16,40.1159,-74.8536,40.068355,-75.23431500000001,False
+aa163ab2ec7dc595ff630db7f11bf142,4939976756738216,fraud_Schamberger-O'Keefe,grocery_pos,177.03,2019-06-08 10:07:11,26.4215,-99.0025,27.413508,-99.45578,False
+784b4c9b86c6eab2b196c5ce3c138af5,30560609640617,fraud_Jakubowski Inc,home,11.78,2019-04-22 22:18:24,40.4931,-91.8912,39.801689,-92.268304,False
+44ba191852c9dba9d21b340f96109f01,30150717898388,fraud_Schumm PLC,shopping_net,10.65,2020-05-29 02:06:23,34.7031,-86.3068,35.268957,-85.501164,False
+ba9711abec7f08265845b285df1a100d,3589255887819806,fraud_Wilkinson Ltd,entertainment,342.44,2020-05-04 20:05:28,39.6991,-78.1762,40.047924,-78.071023,False
+bf8d194692a9d9e8837ecb781d152b53,4653178848915023204,fraud_Hudson-Grady,shopping_pos,2.24,2020-03-28 13:08:01,36.7779,-81.7676,36.710004999999995,-82.709981,False
+11b8dcf9df682ce3ed38276d63c7a7d0,4481131401752,"fraud_Feil, Hilpert and Koss",food_dining,118.82,2019-07-08 14:17:13,42.2848,-71.7205,41.72597,-71.2421,False
+80caa7106084334a731fb9afb70edfbe,6011504998544485,fraud_Quitzon-Goyette,home,61.77,2019-12-16 14:54:23,32.5104,-86.8138,32.530969,-87.21480600000001,False
+6446fa9fe9b426ec0114f7547bc109dc,4149238353975790,"fraud_Zboncak, Rowe and Murazik",shopping_net,99.9,2019-09-01 00:31:34,40.1008,-80.0652,39.468111,-80.462964,False
+059d90cc8437c8c4adec4920529e0136,630469040731,fraud_Wisozk and Sons,misc_pos,5.9,2019-10-05 04:56:14,45.67100000000001,-121.8686,46.660088,-122.780409,False
+43cdd00e8e214fe6657cd40644123938,2285066385084291,fraud_Torp-Labadie,gas_transport,41.53,2020-01-16 01:37:01,31.882,-88.9981,32.316628,-89.138435,False
+1d1daa273fd7305b9c84adfe1c6da951,2291163933867244,fraud_Weimann-Lockman,kids_pets,39.36,2019-12-09 15:19:27,33.9659,-80.9355,33.628758000000005,-80.70631999999999,False
+e754d1d313d359ca9a1f659cb06da3d1,4809701904914,fraud_Spinka Inc,grocery_net,39.35,2019-08-09 01:13:15,32.4204,-85.0796,32.256683,-85.805403,False
+efe3a9e38ea919ef1ec219f83989aa14,4365382885912355,fraud_Hackett-Lueilwitz,grocery_pos,107.87,2019-07-17 03:31:45,48.1439,-92.8561,48.957221,-92.171545,False
+9fca6fcc1307df586eb31d0e99112542,213193596103206,fraud_Reichel Inc,entertainment,74.78,2019-02-17 20:29:38,45.7549,-84.447,45.867342,-83.514441,False
+b1c945af7de0f6d448d44b9fc527c0a9,4586260469584,fraud_Dibbert-Green,entertainment,28.54,2019-10-26 12:50:04,40.1362,-95.2138,40.494084,-94.564082,False
+039805f29ab6849685ae4a5381e4d491,4642894980163,fraud_Harris Group,food_dining,88.0,2019-11-21 17:44:14,40.7491,-95.038,40.467445,-95.713787,False
+0989359c20244f5d7a98475ee4988f77,180048185037117,fraud_Bednar PLC,kids_pets,20.53,2020-02-02 23:13:33,40.6152,-74.415,40.151652,-75.278513,True
+6abddb49478ed46aecd053223a6ebd1e,30248898834493,fraud_Lebsack and Sons,misc_net,2.43,2019-12-08 06:21:52,32.1482,-99.1872,32.674067,-100.174043,False
+4eca504e57adec34d2cbf0709a9736c2,375904527651269,fraud_Mayert Group,shopping_pos,5.94,2019-10-27 08:22:58,40.4591,-98.5551,39.532478000000005,-98.919853,False
+41b6f59aa546c2be3aa242ad7428303a,180065479077096,fraud_Dickinson Ltd,misc_pos,3.34,2019-09-01 05:10:32,39.6747,-76.8941,39.5448,-77.673233,False
+209a78e10c522c76bb0fcb602e2dcbba,4089096483689733451,fraud_Jast Ltd,shopping_net,9.66,2019-12-23 13:08:37,32.3836,-94.8653,32.743297999999996,-94.705479,False
+a76d6c39f29ea6a353dfee3ba34a27b5,370612217861404,"fraud_Tillman, Dickinson and Labadie",gas_transport,87.49,2019-06-13 03:39:56,40.1159,-74.8536,39.711234000000005,-74.528593,False
+b46c45b18167b96aad927e180eed7b5d,4294040533480516,"fraud_Stroman, Hudson and Erdman",gas_transport,45.33,2020-02-24 10:15:20,33.413000000000004,-81.69,33.875033,-82.519305,False
+88814660aba0101b174e1e8137f4a7af,3528407217576457,fraud_Fisher-Schowalter,shopping_net,4.24,2019-04-15 19:57:49,36.4715,-82.4834,37.329094,-82.070746,False
+b9d9b33535a439137dbc313d3b89c0b2,630423337322,"fraud_Kuhic, Bins and Pfeffer",shopping_net,4.69,2019-03-02 17:04:45,48.8878,-118.2105,49.435183,-117.753512,False
+350ffdec488ef00587aad2167340838a,5410056176712193,"fraud_Conroy, Balistreri and Gorczany",health_fitness,153.32,2020-03-15 14:24:34,44.5592,-87.8235,44.579609999999995,-88.818058,False
+fe21808acda41b855c3df8c15e23f746,2720012583106919,"fraud_Koss, McLaughlin and Mayer",food_dining,63.33,2020-05-16 17:14:17,43.3526,-102.5411,42.459825,-102.654262,False
+b8fe65fe81008a62157665e8a0f7c0b8,30551643947183,fraud_Schulist Ltd,food_dining,25.85,2019-10-11 21:43:06,35.1836,-81.4552,35.763627,-81.291422,False
+c48224ad503250d91dd28f57034456d2,4836998673805450,fraud_Auer LLC,personal_care,31.61,2019-09-29 12:44:50,46.0062,-86.2555,45.090951,-85.876573,False
+cc717dcd594dab731932f0136475a0cb,4670613943676271,"fraud_Hermiston, Pacocha and Smith",health_fitness,182.37,2019-06-18 18:28:43,31.7706,-84.7936,31.035903,-84.44622199999999,False
+987033b22db6f51191f167bfdac5ae46,213112402583773,"fraud_Towne, Greenholt and Koepp",shopping_net,8.83,2019-06-18 12:45:26,34.0326,-82.2027,34.877029,-81.444337,False
+dd0b6c08bc8a70b587bf77bc14061ff7,3521417320836166,fraud_Mayert Group,shopping_pos,37.07,2019-05-06 19:39:59,39.849,-86.272,40.514869,-85.890146,False
+b1987c74095ce5be226d65fcb33a59e0,6538441737335434,fraud_Brown-Greenholt,entertainment,116.4,2019-10-24 15:05:22,41.3851,-80.1752,41.204252,-79.639922,False
+cb013fa812ee855e83725a2d946dbfc4,4451952084362894,fraud_Wolf Inc,grocery_pos,90.7,2019-12-10 06:51:19,34.5444,-102.1069,33.920924,-101.81122,False
+d3b61f2f354b8de1715125e82f3d901f,213113338379864,"fraud_Eichmann, Bogan and Rodriguez",gas_transport,12.26,2019-10-14 00:37:54,39.4558,-76.4147,39.890851,-75.965039,True
+93d2bfb1e8315cf01f00c58c31d32c21,630451534402,fraud_O'Connell-Ullrich,home,37.01,2019-08-14 13:14:01,46.3535,-86.6345,46.504117,-85.781171,False
+809ca828cd34219c3f7b1c447c95fbc7,3590736522064285,"fraud_Swaniawski, Lowe and Robel",shopping_pos,1.83,2019-05-13 14:58:19,34.5091,-92.4828,33.761095000000005,-92.023006,False
+559960b5c567d8615e28ee94ba9fb381,4683638447911,fraud_Botsford and Sons,home,69.52,2020-05-19 17:31:20,30.251,-92.5002,30.478303000000004,-92.97375,False
+09c6715e5708dff20a54d6d66b9cd690,6011367958204270,fraud_Berge-Hills,kids_pets,29.62,2019-11-04 12:51:59,41.2419,-81.7453,42.216718,-81.274835,False
+b6df3613ea07334b9ba430481918b40a,4661996144291811856,fraud_Nienow PLC,entertainment,19.46,2019-06-15 22:00:17,40.8555,-79.7372,41.596246,-78.940221,False
+787011a09b70389075193edae86f43b8,36153880429415,fraud_Langworth LLC,personal_care,5.45,2019-04-21 13:02:09,28.1762,-81.9591,29.023106,-81.751021,False
+ee84932479e032e087cf3d673043fda3,3592931352252641,"fraud_Little, Gutmann and Lynch",shopping_net,29.85,2020-05-31 02:52:39,44.8696,-92.8234,43.892233,-92.09446,False
+bbc8db338abef9d062cdd7b862e4d1d9,370348764075623,fraud_Kris-Padberg,shopping_pos,33.4,2020-05-11 11:38:19,30.5668,-90.482,30.780581,-89.59536999999999,False
+b6f56863831556ee53bd927db4a91442,4509922033272157,fraud_Mayert Group,shopping_pos,7.14,2019-07-09 19:18:04,43.2893,-97.1904,42.675751,-96.884522,False
+77de9dafb88a65ded13a1d3c44b2c829,3592931352252641,fraud_Kutch-Ferry,home,87.31,2020-03-01 16:55:46,44.8696,-92.8234,44.315787,-92.548101,False
+f16aa500a3c67310a040c79ee1e9195b,213154573301411,"fraud_Cronin, Kshlerin and Weber",health_fitness,74.44,2020-04-04 21:42:45,38.1981,-86.6821,39.145990000000005,-86.472187,False
+43e9f8fa7ce341ac0c143ac844f3a1b2,4155021259183870,fraud_Labadie LLC,personal_care,89.46,2020-06-12 20:13:12,34.7032,-98.9591,34.810221000000006,-98.819305,False
+6dd92306184164dc794c0e9edee06aef,630424987505,fraud_Kutch-Wilderman,home,11.52,2020-03-06 14:41:48,39.1505,-79.503,38.17284,-79.679633,False
+e756f112fce107ba295fcb0cb491ff5c,4474324669797121,fraud_Mohr Inc,shopping_pos,5.62,2019-08-31 03:18:09,37.7773,-119.0825,37.368068,-118.355368,False
+3e8c3f32cad2dfbe5ea5c6c57fb4800b,4364010865167176,fraud_Breitenberg-Hermiston,kids_pets,32.11,2019-10-28 15:11:03,39.5483,-119.7957,39.372921000000005,-120.385858,False
+6ba4bd017f48b222cc7cc727569e9807,343464013864032,"fraud_Schumm, Bauch and Ondricka",grocery_pos,110.52,2019-08-31 04:32:25,35.8072,-78.0892,34.865438,-77.568009,False
+8adc4a7acc4125a75657e84be426d0d6,213112402583773,"fraud_Heller, Gutmann and Zieme",grocery_pos,86.07,2019-10-20 08:25:57,34.0326,-82.2027,33.926167,-81.29983100000001,False
+5e32fbf2eda9d67bbecbacf2dc7a9886,2256234701263057,fraud_Rau-Grant,kids_pets,229.65,2019-12-05 12:28:16,43.5103,-72.1334,42.766098,-71.807273,False
+88207fba38fb93301825ebf50380b6e6,4990494243023,fraud_Gleason-Macejkovic,shopping_net,8.8,2020-06-01 00:03:15,39.6967,-78.8031,39.586942,-79.030011,False
+8bb5ec5c39af6866e28e6c86c6509ce9,4926376199189801,fraud_Gulgowski LLC,home,110.42,2019-12-09 23:23:48,36.3011,-91.5281,36.315723,-90.819523,False
+21607f88b82ef9671fd19d4d946f034d,30026790933302,fraud_Stamm-Witting,shopping_net,91.09,2019-07-16 03:15:21,32.9013,-91.0286,32.156331,-90.243976,False
+bf60c24943e44a6b14d3d30d5ec37ca0,4311368326621416041,fraud_Jakubowski Inc,home,10.32,2020-01-25 20:13:10,40.7692,-103.0968,40.348146,-102.745325,False
+b81b4aac1a7caa747f9214b745f1360f,180048185037117,fraud_Kunze Inc,grocery_pos,211.6,2020-05-25 02:16:56,40.6152,-74.415,41.323281,-73.55243,False
+201b99bc257471d251229dcb67d3b977,5501083170975659,fraud_Prohaska-Murray,gas_transport,73.62,2020-03-14 08:38:41,41.1464,-81.5107,40.533255,-81.495937,False
+33263e384c2210a0fd059895e06d3741,4587657402165341815,fraud_Bernhard Inc,gas_transport,55.8,2020-01-04 07:31:13,41.0646,-87.5917,41.784917,-87.499972,False
+6289115dcd5f1d5313fc7d9d9e24922b,4301028321766222513,fraud_Beier and Sons,home,87.72,2019-12-23 20:02:05,40.6025,-80.3863,39.879031,-79.895593,False
+757f3d5849f3c8ca32e2403e3dd480ee,30518206766474,"fraud_Cole, Hills and Jewess",home,88.34,2019-05-20 15:10:14,36.7154,-89.6287,37.033751,-89.730378,False
+3b7c3a3dd370f323e6aa30a25d8a6824,4550599031376731,fraud_Hudson-Ratke,grocery_pos,325.37,2019-11-14 02:35:35,40.7559,-82.5123,40.793337,-83.419539,True
+ae23b8d83fae75bb644efcf85c1a0426,4452366298769043,fraud_Padberg-Sauer,home,122.66,2019-07-08 17:27:50,32.0758,-96.701,31.498494,-97.033608,False
+155eb33118c594a2c796cc8328a2be0a,374497717543058,fraud_Corwin-Collins,gas_transport,53.09,2020-06-03 02:38:55,47.1709,-100.7944,47.770024,-100.523821,False
+c9a28e16403f35db560be92fdeff897c,3581130339108561,fraud_Trantow PLC,grocery_net,57.81,2020-06-05 00:05:13,41.0695,-81.5488,41.265639,-81.311077,False
+763396fbc3a88a9d82ad7b42342a97b3,376028110684021,fraud_Abernathy and Sons,food_dining,63.49,2019-12-07 16:50:06,39.7795,-93.3014,40.259128,-92.301993,False
+f85fd6e62062867cb2c4a7a04704c10d,4897067971111209737,fraud_Stamm-Witting,shopping_net,3.15,2019-05-26 12:31:48,28.3011,-82.6927,27.810678000000003,-82.507745,False
+634005e66bd0f2c8a04f43c7ff9ca8b2,3521417320836166,fraud_Mraz-Herzog,gas_transport,67.08,2019-09-20 05:36:58,39.849,-86.272,39.654496,-87.20707900000001,False
+da67db69061dbca65d354e08763492d4,5559857416065248,fraud_Osinski Inc,personal_care,36.92,2019-09-22 19:27:34,41.6125,-122.5258,42.42477,-121.852843,False
+136ab70e3d41f9fa11d83a50573ae000,180056173248083,fraud_Keeling-Crist,misc_pos,179.23,2020-01-19 19:35:44,43.4269,-85.2924,43.733989,-84.53326899999999,False
+f3de00346edb7109d500602efd95934a,30199621383748,fraud_Conroy Ltd,shopping_pos,215.68,2019-11-09 13:20:14,33.4044,-96.2238,33.601011,-96.80679,False
+f08b5f076222343fc9ce9cd017633aae,3540075240003197,"fraud_Nitzsche, Kessler and Wolff",shopping_pos,1.39,2019-11-22 19:06:55,44.4477,-93.4252,43.576906,-93.796176,False
+16037afe60ad1b1975cb79cef2189b48,30357372465631,fraud_Eichmann-Kilback,home,45.31,2019-12-03 19:29:18,43.6718,-89.1918,44.022294,-89.131752,False
+1fa0b29a9b34ed448da4de72887d1963,4149238353975790,fraud_Simonis-Prohaska,misc_pos,37.22,2019-12-09 08:36:51,40.1008,-80.0652,39.965788,-79.273347,False
+60bede0b80d937ec7aed03d9ac8c8b1d,4646845581490336108,"fraud_O'Connell, Botsford and Hand",home,130.63,2019-12-21 15:53:49,40.732,-73.1,40.181352,-72.704898,False
+e315d11aa74b253525946ec7837254c6,4653879239169997,fraud_Hintz-Bruen,grocery_net,8.14,2019-04-10 04:38:54,37.0581,-86.1938,36.495056,-85.270226,False
+bf6a8b075152403a9987efbe4c141728,4658490815480264,fraud_Padberg-Sauer,home,52.52,2019-11-08 21:48:52,39.9636,-79.7853,40.76546,-78.99319399999999,False
+c13bad4802454648e52a9b9fa440f54b,4792627764422477317,fraud_Fadel-Hilpert,health_fitness,115.82,2019-08-23 13:08:11,38.9462,-94.9714,39.875713,-95.026128,False
+5a315267688e048202d484ad2d36d321,348789608637806,"fraud_Reichert, Huels and Hoppe",shopping_net,154.56,2019-08-25 11:47:32,40.4542,-98.6538,41.394077,-99.536786,False
+0982b6aa42718ed749e1de51a59e6ab2,4710826438164847414,fraud_Ankunding LLC,shopping_net,940.96,2019-12-23 02:47:02,48.8328,-108.3961,49.179081,-108.163287,False
+ee7751543d32a528f4f8003eeb7c7952,4990494243023,fraud_Haley Group,misc_pos,9.32,2020-06-02 01:00:59,39.6967,-78.8031,38.801326,-78.546367,False
+3b7df2ef258a7ff43e7794d1e15464af,571314334723,fraud_Cole PLC,grocery_pos,80.58,2019-08-11 02:32:39,39.8882,-79.8694,39.915839,-79.074846,False
+95b44aedd88fdb43777ca4803972e26d,5559857416065248,"fraud_Reilly, Heaney and Cole",gas_transport,66.84,2019-05-27 02:16:34,41.6125,-122.5258,41.479778,-122.413089,False
+10719e57b7a7698a54067e41cf5cf66c,30143713661454,fraud_Lynch-Mohr,travel,7.52,2019-04-13 20:47:17,48.6669,-96.5969,48.851593,-96.397978,False
+a701c1f1499be3768d4cea9dde0fcc19,30235268718158,fraud_Schaefer Ltd,kids_pets,67.29,2019-07-28 12:10:45,41.0592,-73.7395,41.508247,-74.662809,False
+87204d8b45d9a1bd14756675ff771a5b,639095706599,fraud_Friesen-D'Amore,gas_transport,58.78,2019-06-24 11:28:09,42.9633,-94.7975,42.098913,-95.641887,False
+890e1b75abd59d6bf812439d390b4e41,3519232971341141,fraud_Brown-Greenholt,entertainment,41.22,2020-05-03 20:06:21,40.4731,-80.9596,39.60119,-81.85912900000001,False
+2a57ecaeeb52d67f3578a7bccd02a61b,4633065159406313,"fraud_Streich, Dietrich and Barton",shopping_net,1009.3,2019-10-11 17:11:33,41.8383,-71.4377,42.089771,-71.83663,True
+95b4ace2bb9d0d7663954cffaaf995f7,4586810168620942,"fraud_Ritchie, Bradtke and Stiedemann",travel,6.88,2019-05-20 17:51:18,32.5486,-80.307,32.932836,-81.119416,False
+39b38d818e2fbdb05a0a4851d0e7ff40,4764202053279782,fraud_Cormier LLC,health_fitness,20.3,2020-04-22 19:24:31,41.0935,-81.0425,41.702225,-80.516033,False
+c9f3863f2735cba13b461a35c422287c,4254074738931278,fraud_Waters-Cruickshank,health_fitness,42.21,2019-12-01 21:31:06,42.0737,-78.0594,42.794135,-78.155121,False
+21b91711ce7e23751cd2b54114a9abae,4797297220948468262,fraud_Waelchi Inc,kids_pets,26.47,2019-04-07 14:15:23,38.8938,-86.5246,39.661501,-87.385312,False
+2f88d2c2bea11542ba81538c1a8f0bea,4149635823017,"fraud_Huel, Hammes and Witting",grocery_pos,46.95,2020-04-13 11:26:44,33.9778,-86.5598,34.725687,-86.496686,False
+2b7701356d418d4888ef3c4c959a74df,4610050989831291,fraud_Daugherty LLC,kids_pets,54.06,2019-03-01 17:39:47,41.4798,-79.9403,40.923857,-80.04673000000001,False
+76cc74876ae1634318de7f3f6f5b483e,4538566639857,"fraud_Daugherty, Pouros and Beahan",shopping_pos,3.6,2020-02-23 08:52:17,40.817,-74.0,41.173225,-73.064594,False
